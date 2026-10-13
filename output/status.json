@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13 15:28:18",
+  "updated_at": "2026-10-13 15:36:35",
   "repo": "foxxxx001/tvbox-config",
   "sources": [
     {
@@ -64,6 +64,20 @@
       "name": "菜妮丝",
       "ok": true,
       "used_url": "https://0.wudaozhe.net/tvbox/菜妮丝.json",
+      "error": null
+    },
+    {
+      "id": "red",
+      "name": "二月红",
+      "ok": false,
+      "used_url": null,
+      "error": "Expecting value: line 391 column 7 (char 9349)"
+    },
+    {
+      "id": "fuleixyx",
+      "name": "芙蕾",
+      "ok": true,
+      "used_url": "https://gitee.com/fuleishu/fulei/raw/master/fuleixyx.json",
       "error": null
     }
   ]
