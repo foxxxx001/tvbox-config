@@ -12,20 +12,19 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-10-13 15:20:26（北京时间） · 成功 **4/10** 个源
+> 🔄 最近更新：2026-10-13 15:28:18（北京时间） · 成功 **9/9** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
+| X4菠菜园 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/X4菠菜园.json` |
+| 饭太硬 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/饭太硬.json` |
+| 摸鱼 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/摸鱼.json` |
+| 王二小 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/王二小.json` |
+| 潇洒 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/潇洒.json` |
+| 嗷呜 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/嗷呜.json` |
+| 幸福年年 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/幸福年年.json` |
 | 肥猫 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
-| 饭太硬 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
-| 王二小 | ✅ 成功 | `https://d.kstore.dev/download/9280/wex.json` |
-| 讴歌 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
-| 摸鱼 | ❌ 失败 | HTTPConnectionPool(host='xn--c5wa.xn--v4q818bf34b.top', p... |
-| OK | ❌ 失败 | HTTPConnectionPool(host='ok321.top', port=80): Max retrie... |
-| 小米 | ❌ 失败 | HTTPConnectionPool(host='miqk.cc', port=80): Max retries ... |
-| 巧记 | ❌ 失败 | HTTPConnectionPool(host='cdn.qiaoji8.com', port=80): Max ... |
-| 4K小盒子 | ✅ 成功 | `http://xhztv.top/4k.json` |
-| 潇洒 | ❌ 失败 | 404 Client Error:  for url: https://9877.kstore.space/Ano... |
+| 菜妮丝 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/菜妮丝.json` |
 <!-- STATUS_END -->
 
 ## 二、仓库结构
