@@ -100,6 +100,20 @@
         "https://0.wdzb.eu.cc/tvbox/菜妮丝.json",
         "https://tv.xn--yhqu5zs87a.top"
       ]
-    }
+    },
+    {
+      "id": "red",
+      "name": "二月红",
+      "urls": [
+        "https://700sjro44343.vicp.fun/eggp/0211/tv.json"
+      ]
+    },
+    {
+      "id": "fuleixyx",
+      "name": "芙蕾",
+      "urls": [
+        "https://gitee.com/fuleishu/fulei/raw/master/fuleixyx.json"
+      ]
+    }    
   ]
 }
