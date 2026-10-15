@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15 14:46:19",
+  "updated_at": "2026-10-16 01:57:42",
   "repo": "foxxxx001/tvbox-config",
   "sources": [
     {
@@ -55,9 +55,8 @@
       "id": "feimao",
       "name": "肥猫",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "522 Server Error: Connection Timeout with Origin Server for url: http://xn--z7x900a.net/tv",
-      "cached": true
+      "used_url": "http://肥猫.net/tv",
+      "error": null
     },
     {
       "id": "cainishi",

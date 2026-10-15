@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-10-15 14:46:19（北京时间） · 成功 **10/11** 个源
+> 🔄 最近更新：2026-10-16 01:57:42（北京时间） · 成功 **10/11** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -23,7 +23,7 @@
 | 潇洒 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/潇洒.json` |
 | 嗷呜 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/嗷呜.json` |
 | 幸福年年 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/幸福年年.json` |
-| 肥猫 | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |
+| 肥猫 | ✅ 成功 | `http://肥猫.net/tv` |
 | 菜妮丝 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/菜妮丝.json` |
 | 二月红 | ❌ 失败 | Expecting value: line 391 column 7 (char 9349) |
 | 芙蕾 | ✅ 成功 | `https://gitee.com/fuleishu/fulei/raw/master/fuleixyx.json` |
