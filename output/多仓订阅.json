@@ -2,47 +2,47 @@
   "urls": [
     {
       "name": "X4菠菜园",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/X4.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/X4.json"
     },
     {
       "name": "饭太硬",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/fantaiying.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/fantaiying.json"
     },
     {
       "name": "摸鱼",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/moyu.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/moyu.json"
     },
     {
       "name": "王二小",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/wangerxiao.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/wangerxiao.json"
     },
     {
       "name": "潇洒",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/xiaosha.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/xiaosha.json"
     },
     {
       "name": "嗷呜",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/aowu.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/aowu.json"
     },
     {
       "name": "幸福年年",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/xinfunianian.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/xinfunianian.json"
     },
     {
       "name": "肥猫",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/feimao.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/feimao.json"
     },
     {
       "name": "菜妮丝",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/cainishi.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/cainishi.json"
     },
     {
       "name": "二月红",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/red.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/red.json"
     },
     {
       "name": "芙蕾",
-      "url": "https://raw.githubusercontent.com/YOUR_USERNAME/tvbox-ysc-config/main/output/fuleixyx.json"
+      "url": "https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/fuleixyx.json"
     }
   ]
 }
