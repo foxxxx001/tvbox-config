@@ -2381,57 +2381,6 @@
       ]
     },
     {
-      "key": "modudongman",
-      "name": "🍀魔都动漫",
-      "type": 1,
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "动漫电影",
-        "电影",
-        "连续剧",
-        "综艺",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "惊悚片",
-        "家庭片",
-        "古装片",
-        "历史片",
-        "悬疑片",
-        "犯罪片",
-        "灾难片",
-        "记录片",
-        "短片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "短剧",
-        "体育",
-        "足球",
-        "AI漫剧"
-      ]
-    },
-    {
       "key": "hongniu3",
       "name": "🍀红牛资源3",
       "type": 1,
@@ -2826,39 +2775,6 @@
       "changeable": 0
     },
     {
-      "key": "咕咕",
-      "name": "🦉咕咕┃动漫",
-      "type": 3,
-      "api": "csp_AppSxGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http://www.饭太硬.net/rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo"
-    },
-    {
-      "key": "Dm84",
-      "name": "🚌巴士┃动漫",
-      "type": 3,
-      "api": "csp_Dm84Guard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "看球",
-      "name": "⚽八八┃看球",
-      "type": 3,
-      "api": "csp_KanqiuGuard",
-      "timeout": 10,
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "多多",
       "name": "🏀多多┃回放",
       "type": 3,
@@ -2869,34 +2785,6 @@
       "style": {
         "type": "list"
       }
-    },
-    {
-      "key": "吃瓜",
-      "name": "🏐吃瓜┃看球",
-      "type": 3,
-      "api": "csp_LiveGzGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "alllive",
-      "name": "🎮一直播┃直播",
-      "type": 3,
-      "api": "csp_AllliveGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "timeout": 15,
-      "playerType": "2",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8="
     },
     {
       "key": "MTV",
@@ -2915,19 +2803,6 @@
       }
     },
     {
-      "key": "有声小说",
-      "name": "🎧有声┃小说",
-      "type": 3,
-      "api": "csp_Tingshu275Guard",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "Aid",
       "name": "🚑急救┃教学",
       "type": 3,
@@ -2939,38 +2814,6 @@
         "type": "rect",
         "ratio": 3.8
       }
-    },
-    {
-      "key": "虎牙js",
-      "name": "🐯虎牙┃直播",
-      "type": 3,
-      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/虎牙.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.755
-      },
-      "timeout": 10,
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "斗鱼js",
-      "name": "🐟斗鱼┃直播",
-      "type": 3,
-      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.755
-      },
-      "timeout": 10,
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0
     },
     {
       "key": "ZPan",
@@ -3815,21 +3658,6 @@
       "changeable": 1
     },
     {
-      "key": "HonHon",
-      "name": "🍅┆红红┆短剧",
-      "type": 3,
-      "api": "csp_HonHon",
-      "searchable": 1,
-      "quickSearch": 1,
-      "genre": "shortdrama",
-      "filterable": 1,
-      "ext": {
-        "host": "https://short.fishcloud.top",
-        "quality": "1080p",
-        "danmu": false
-      }
-    },
-    {
       "key": "DJHub",
       "name": "🎭┆短剧┆聚合",
       "type": 3,
@@ -3839,63 +3667,6 @@
       "genre": "shortdrama",
       "filterable": 1,
       "changeable": 1
-    },
-    {
-      "key": "XingHui",
-      "name": "✨┆星绘┆动漫",
-      "type": 3,
-      "api": "csp_XingHui",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": "http:///Add8krwC68v61DP+FKD6Jfku9NAYotb5APLK7YesWQ1matF4zi2Prh/3AY6D3ZeBGuxJg4SEuXY9n/vMa+B4fC0="
-    },
-    {
-      "key": "FanShu",
-      "name": "🍠┆番薯┆动漫",
-      "type": 3,
-      "api": "csp_FanShu",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "http:///AfcrWiL6kOmzXnbqzxhVVO34r1aA/e0g4grwfsFA8V5EPAVy9WtRO4yVFf3aC5LmzKENIEFO9aA2BMklc+wOUy4="
-    },
-    {
-      "key": "双星",
-      "name": "✨┆双星┆动漫",
-      "type": 3,
-      "api": "csp_App88",
-      "ext": "http:///ASknzit/3RrKEEXbbz2uOW7k75U9vVpwIABB/21in43V9EurdnfBnTItL6PlxmtMtD6kcaVBntdV/G/gFIItRXiANEcEPDY7/qVV0hfIygxO"
-    },
-    {
-      "key": "XgAnime",
-      "name": "🍉┆西瓜┆动漫",
-      "type": 3,
-      "api": "csp_XgAnime",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "Manbo",
-      "name": "🕺┆曼波┆动漫",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http:///AUzH3yIWvgQkyhQw17uONTsfuN8PupZ/LJdr5C31Y/CWlzSNmarYI5kaJYN5c0p6+Oq0tXuTutQo9MHHytxulL5kmapDuAK5+2NTlpsUgBnr0tOamm69Fwb+jFDQ7VW46qf5EFY+Ea3PHzkpfeObKPM="
-    },
-    {
-      "key": "Gugu",
-      "name": "🐤┆咕咕┆动漫",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http:///ARKK6LQnl4dB2QciLugEzZ8QD2WdbeK23tPAre1QOEbbL5BfB8cV39JNfSd2+Xhcqr/z+V5To0krLYHUX7NtRtwYBC44/9ayncZMomdbv4ZCBNOUsBEedUQx7SWf1J0pE0BsLG9QlR8tURwRwx/sqT0="
     },
     {
       "key": "Jianpian",
@@ -3983,24 +3754,6 @@
       }
     },
     {
-      "key": "TuXiaoBei",
-      "name": "🐰┆小兔┆少儿",
-      "type": 3,
-      "api": "csp_TuXiaoBei",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "BeiLeHu",
-      "name": "🐯┆小虎┆少儿",
-      "type": 3,
-      "api": "csp_BeiLeHu",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
       "key": "BiliHeji",
       "name": "🎉┆笔璃┆合集",
       "type": 3,
@@ -4030,53 +3783,6 @@
       "style": {
         "type": "rect",
         "ratio": 1.433
-      }
-    },
-    {
-      "key": "TingBook",
-      "name": "📻┆六月┆有声",
-      "type": 3,
-      "api": "csp_TingBook",
-      "searchable": 1,
-      "indexs": 0,
-      "ext": "https://app.365ting.com",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "TingBookJinXia",
-      "name": "🎙️┆堇夏┆有声",
-      "type": 3,
-      "api": "csp_TingBookJinXia",
-      "searchable": 1,
-      "filterable": 1,
-      "indexs": 0,
-      "ext": "https://m.ting15.com",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "TingShijie",
-      "name": "🌍┆听界┆有声",
-      "type": 3,
-      "api": "csp_TingShijie",
-      "searchable": 1,
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "TingYou",
-      "name": "🎧┆听友┆有声",
-      "type": 3,
-      "api": "csp_TingYou",
-      "searchable": 1,
-      "indexs": 0,
-      "style": {
-        "type": "list"
       }
     },
     {
@@ -4851,6 +4557,69 @@
       "changeable": 0
     },
     {
+      "key": "SportAiFeiQiu",
+      "name": "🌐飞球┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiFeiQiuGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "SportAiGuaZi",
+      "name": "🌐瓜子┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiGuaZiGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "SportAiKanQiuTong",
+      "name": "🌐球通┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiKanQiuTongGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "SportAiKanqiu",
+      "name": "🌐八八┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiKanqiuGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "SportAiKaFei",
+      "name": "🌐咖啡┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiKaFeiGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "SportAiWwe",
+      "name": "🌐WWE┃体育🌐",
+      "type": 3,
+      "api": "csp_SportAiWweGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
       "key": "FakeAi115Share",
       "name": "💓115┃分享💓‍",
       "type": 3,
@@ -4968,6 +4737,70 @@
       },
       "ext": {
         "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
+      }
+    },
+    {
+      "key": "少儿教育",
+      "name": "📚少儿┃教育📚",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
+      }
+    },
+    {
+      "key": "小学课堂",
+      "name": "📚小学┃课堂📚",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
+      }
+    },
+    {
+      "key": "初中课堂",
+      "name": "📚初中┃课堂📚",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
+      }
+    },
+    {
+      "key": "高中教育",
+      "name": "📚高中┃课堂📚",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
       }
     },
     {
@@ -5599,7 +5432,7 @@
       "timeout": 60
     },
     {
-      "key": "xiaosha_双星",
+      "key": "双星",
       "name": "双星 • 4K",
       "type": 3,
       "api": "csp_ShuangXing",
@@ -5623,54 +5456,6 @@
         "type": "list"
       },
       "timeout": 60
-    },
-    {
-      "key": "七猫短剧",
-      "name": "七猫 • 短剧",
-      "type": 3,
-      "api": "csp_ShortQimao",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "河马短剧",
-      "name": "河马 • 短剧",
-      "type": 3,
-      "api": "csp_ShortHema",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "围观短剧",
-      "name": "围观 • 短剧",
-      "type": 3,
-      "api": "csp_ShortWeiguan",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "好看短剧",
-      "name": "好看 • 短剧",
-      "type": 3,
-      "api": "csp_ShortHaokan",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "星芽短剧",
-      "name": "星芽 • 短剧",
-      "type": 3,
-      "api": "csp_ShortXingya",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "果果短剧",
-      "name": "果果 • 短剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8",
-        "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
-      },
-      "genre": "shortdrama"
     },
     {
       "key": "飞娱影视",
@@ -5758,78 +5543,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
-    },
-    {
-      "key": "番社动漫",
-      "name": "番社 • 动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://dora.xiaoxinbk.com/",
-        "数组": "https://9877.kstore.space/class=\"card-img-bili\"&&</a>",
-        "标题": "alt=\"&&\"",
-        "图片": "data-url=\"&&\"",
-        "链接": "href=\"&&\"",
-        "线路标题": "https://9877.kstore.space/mt-0\">&&</h3>",
-        "播放数组": "https://9877.kstore.space/class=\"card-body button-list\"&&</div>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "https://9877.kstore.space/>&&</",
-        "分类url": "https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}",
-        "分类": "全部$0#动画$20#剧场版$21#MV$22#预告片$23#直播$27#同人$25#民间$26#目录$28#中篇$30",
-        "剧情": "哆啦A梦新番$1#新哆啦A梦 台湾配音$2#哆啦A梦剧场版$3#最新预告片$6#剧场版集合$7#哆啦A梦MV$4#哆啦A梦七小子集合$11#生日特别篇$19#哆啦A梦生日特别篇$12#哆啦美生日特别篇$14#大雄生日特别篇$13#静香生日特别篇$15#胖虎生日特别篇$16#小夫生日特别篇$17#24小时直播$24#哆啦A梦中篇附映$29#哆啦A梦大山版 - 哆啦a梦1979版国语旧版 - 旧版$31#哆啦A梦大山修复&补档区$32#藤子·F·不二雄【其它动画】$33",
-        "排序": "全部$0#完结$2#连载$1#待定$-1"
-      },
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "双星99",
-      "name": "双星 • 动漫",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://111.180.139.119:19987/app/bn",
-        "LoginPath": "https://9877.kstore.space/app/log",
-        "versionName": "6.4.9",
-        "name": "双子星动漫",
-        "package": "com.haiwang.liangxia.my.ym",
-        "buildNumber": "2001",
-        "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
-      }
-    },
-    {
-      "key": "咕咕动漫",
-      "name": "咕咕 • 动漫",
-      "type": 3,
-      "searchable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://www.gugu3.com",
-        "dataKey": "nKfZ8KX6JTNWRzTD",
-        "dataIv": "nKfZ8KX6JTNWRzTD"
-      }
-    },
-    {
-      "key": "巴士动漫",
-      "name": "巴士 • 动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "https://9877.kstore.space/User-Agent$MOBILE_UA#Accept$text/html#accept-language$zh-CN,zh;q=0.8",
-        "分类url": "https://dmbus.cc/show-{cateId}--{by}-{class}--{year}-{catePg}.html",
-        "分类": "国漫$1#日漫$2#欧美动漫$3#电影$4",
-        "数组": "https://9877.kstore.space/class=\"item\">&&</li>",
-        "简介": "https://9877.kstore.space/剧情：&&</p>",
-        "标题": "title=\"&&在线观看\"",
-        "副标题": "https://9877.kstore.space/desc\">&&</span>",
-        "图片": "data-bg=\"&&\"",
-        "搜索url": "https://dmbus.cc/s----------.html?wd={wd}",
-        "倒序": "1"
-      }
     },
     {
       "key": "xiaosha_荐片",
@@ -6031,18 +5744,6 @@
       "timeout": 60
     },
     {
-      "key": "88看球",
-      "name": "88 • 看球",
-      "type": 3,
-      "api": "csp_Sports88",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "呦呦DJ",
       "name": "呦呦 • DJ",
       "type": 3,
@@ -6128,45 +5829,6 @@
       }
     },
     {
-      "key": "童趣",
-      "name": "童趣 • 儿童",
-      "type": 3,
-      "api": "csp_TongQu",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
-      "key": "兔小贝",
-      "name": "兔小贝 • 儿童",
-      "type": 3,
-      "api": "csp_TuXiaoBei",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
-      "key": "贝乐虎",
-      "name": "贝乐虎 • 儿童",
-      "type": 3,
-      "api": "csp_BeiLeHu",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
       "key": "哔哩哔哩音乐",
       "name": "哔哩 • 音乐",
       "type": 3,
@@ -6227,23 +5889,6 @@
       "changeable": 0,
       "ext": {
         "n": "哔哩小品",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
-      "key": "哔哩哔哩戏曲",
-      "name": "哔哩 • 戏曲",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "n": "哔哩戏曲",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -6593,42 +6238,6 @@
       "changeable": 1
     },
     {
-      "name": "🐱番薯┃动漫",
-      "key": "DMfans",
-      "type": 3,
-      "api": "csp_DMfansAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1
-    },
-    {
-      "name": "🐱牛来┃动漫",
-      "key": "DMox",
-      "type": 3,
-      "api": "csp_DMoxAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "name": "🐱青云┃动漫",
-      "key": "DMqingk",
-      "type": 3,
-      "api": "csp_DMqingkAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "name": "🐱魔都┃动漫",
-      "key": "DMmodu",
-      "type": 3,
-      "api": "csp_DMmoduAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "name": "🛸哔嘀┃2K",
       "key": "Bidys",
       "type": 3,
@@ -6657,76 +6266,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "Libvio"
-    },
-    {
-      "name": "📽️嗷嗚┃短剧",
-      "key": "DjHggg",
-      "type": 3,
-      "api": "csp_HgggAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "genre": "shortdrama"
-    },
-    {
-      "name": "📽️豪堪┃短剧",
-      "key": "HHkk",
-      "type": 3,
-      "api": "csp_HHkkAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1,
-      "genre": "shortdrama"
-    },
-    {
-      "name": "📽️盒马┃短剧",
-      "key": "Hema",
-      "type": 3,
-      "api": "csp_HemaAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "genre": "shortdrama"
-    },
-    {
-      "name": "📽️拜拜┃短剧",
-      "key": "Bddj",
-      "type": 3,
-      "api": "csp_BddjAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "genre": "shortdrama"
-    },
-    {
-      "name": "📽️围观┃短剧",
-      "key": "Wgdj",
-      "type": 3,
-      "api": "csp_WgdjAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "genre": "shortdrama"
-    },
-    {
-      "name": "📽️喵喵┃短剧",
-      "key": "Qmdj",
-      "type": 3,
-      "api": "csp_QmdjAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "genre": "shortdrama"
-    },
-    {
-      "name": "📽️星星┃短剧",
-      "key": "Xydj",
-      "type": 3,
-      "api": "csp_XydjAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "genre": "shortdrama"
     },
     {
       "name": "⭐橘汁┃快速",
@@ -6933,16 +6472,6 @@
       "key": "Kuwo",
       "type": 3,
       "api": "csp_KuwoAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "genre": "music"
-    },
-    {
-      "name": "🎸蜻蜓┃电台",
-      "key": "QTfm",
-      "type": 3,
-      "api": "csp_QTfmAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -7672,54 +7201,6 @@
       "timeout": 60
     },
     {
-      "key": "xinfunianian_七猫短剧",
-      "name": "七猫 • 短剧",
-      "type": 3,
-      "api": "csp_ShortQimao",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "xinfunianian_河马短剧",
-      "name": "河马 • 短剧",
-      "type": 3,
-      "api": "csp_ShortHema",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "xinfunianian_围观短剧",
-      "name": "围观 • 短剧",
-      "type": 3,
-      "api": "csp_ShortWeiguan",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "xinfunianian_好看短剧",
-      "name": "好看 • 短剧",
-      "type": 3,
-      "api": "csp_ShortHaokan",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "xinfunianian_星芽短剧",
-      "name": "星芽 • 短剧",
-      "type": 3,
-      "api": "csp_ShortXingya",
-      "genre": "shortdrama"
-    },
-    {
-      "key": "xinfunianian_果果短剧",
-      "name": "果果 • 短剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8",
-        "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
-      },
-      "genre": "shortdrama"
-    },
-    {
       "key": "xinfunianian_飞娱影视",
       "name": "飞娱 • 影视",
       "type": 3,
@@ -7805,78 +7286,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
-    },
-    {
-      "key": "xinfunianian_番社动漫",
-      "name": "番社 • 动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://dora.xiaoxinbk.com/",
-        "数组": "https://9877.kstore.space/class=\"card-img-bili\"&&</a>",
-        "标题": "alt=\"&&\"",
-        "图片": "data-url=\"&&\"",
-        "链接": "href=\"&&\"",
-        "线路标题": "https://9877.kstore.space/mt-0\">&&</h3>",
-        "播放数组": "https://9877.kstore.space/class=\"card-body button-list\"&&</div>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "https://9877.kstore.space/>&&</",
-        "分类url": "https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}",
-        "分类": "全部$0#动画$20#剧场版$21#MV$22#预告片$23#直播$27#同人$25#民间$26#目录$28#中篇$30",
-        "剧情": "哆啦A梦新番$1#新哆啦A梦 台湾配音$2#哆啦A梦剧场版$3#最新预告片$6#剧场版集合$7#哆啦A梦MV$4#哆啦A梦七小子集合$11#生日特别篇$19#哆啦A梦生日特别篇$12#哆啦美生日特别篇$14#大雄生日特别篇$13#静香生日特别篇$15#胖虎生日特别篇$16#小夫生日特别篇$17#24小时直播$24#哆啦A梦中篇附映$29#哆啦A梦大山版 - 哆啦a梦1979版国语旧版 - 旧版$31#哆啦A梦大山修复&补档区$32#藤子·F·不二雄【其它动画】$33",
-        "排序": "全部$0#完结$2#连载$1#待定$-1"
-      },
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "xinfunianian_双星99",
-      "name": "双星 • 动漫",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://111.180.139.119:19987/app/bn",
-        "LoginPath": "https://9877.kstore.space/app/log",
-        "versionName": "6.4.9",
-        "name": "双子星动漫",
-        "package": "com.haiwang.liangxia.my.ym",
-        "buildNumber": "2001",
-        "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
-      }
-    },
-    {
-      "key": "xinfunianian_咕咕动漫",
-      "name": "咕咕 • 动漫",
-      "type": 3,
-      "searchable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://www.gugu3.com",
-        "dataKey": "nKfZ8KX6JTNWRzTD",
-        "dataIv": "nKfZ8KX6JTNWRzTD"
-      }
-    },
-    {
-      "key": "xinfunianian_巴士动漫",
-      "name": "巴士 • 动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "https://9877.kstore.space/User-Agent$MOBILE_UA#Accept$text/html#accept-language$zh-CN,zh;q=0.8",
-        "分类url": "https://dmbus.cc/show-{cateId}--{by}-{class}--{year}-{catePg}.html",
-        "分类": "国漫$1#日漫$2#欧美动漫$3#电影$4",
-        "数组": "https://9877.kstore.space/class=\"item\">&&</li>",
-        "简介": "https://9877.kstore.space/剧情：&&</p>",
-        "标题": "title=\"&&在线观看\"",
-        "副标题": "https://9877.kstore.space/desc\">&&</span>",
-        "图片": "data-bg=\"&&\"",
-        "搜索url": "https://dmbus.cc/s----------.html?wd={wd}",
-        "倒序": "1"
-      }
     },
     {
       "key": "xinfunianian_New6v",
@@ -8072,18 +7481,6 @@
       "timeout": 60
     },
     {
-      "key": "xinfunianian_88看球",
-      "name": "88 • 看球",
-      "type": 3,
-      "api": "csp_Sports88",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "xinfunianian_呦呦DJ",
       "name": "呦呦 • DJ",
       "type": 3,
@@ -8157,45 +7554,6 @@
       }
     },
     {
-      "key": "xinfunianian_童趣",
-      "name": "童趣 • 儿童",
-      "type": 3,
-      "api": "csp_TongQu",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
-      "key": "xinfunianian_兔小贝",
-      "name": "兔小贝 • 儿童",
-      "type": 3,
-      "api": "csp_TuXiaoBei",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
-      "key": "xinfunianian_贝乐虎",
-      "name": "贝乐虎 • 儿童",
-      "type": 3,
-      "api": "csp_BeiLeHu",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
       "key": "xinfunianian_哔哩哔哩音乐",
       "name": "哔哩 • 音乐",
       "type": 3,
@@ -8256,23 +7614,6 @@
       "changeable": 0,
       "ext": {
         "n": "哔哩小品",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
-      "key": "xinfunianian_哔哩哔哩戏曲",
-      "name": "哔哩 • 戏曲",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "n": "哔哩戏曲",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -8564,20 +7905,6 @@
       "ext": "https://dm84.net"
     },
     {
-      "key": "方舟",
-      "name": "🐷┃方舟┃动漫",
-      "type": 3,
-      "api": "csp_AppGet",
-      "ext": "https://www.cyfz.top|e72cdfd629e8895d"
-    },
-    {
-      "key": "番薯",
-      "name": "🍠┃番薯┃动漫",
-      "type": 3,
-      "api": "csp_AppGet",
-      "ext": "https://app.omofun1.top|66dc309cbeeca454"
-    },
-    {
       "key": "csp_FirstAid",
       "name": "🚑┃急救┃教学",
       "type": 3,
@@ -8618,19 +7945,6 @@
       "style": {
         "type": "rect",
         "ratio": 1.333
-      }
-    },
-    {
-      "key": "feimao_看球",
-      "name": "⚾┃看球┃直播",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "gridview": 3,
-      "style": {
-        "type": "list"
       }
     },
     {
@@ -8930,27 +8244,6 @@
       "changeable": 0,
       "quickSearch": 1,
       "ext": "https://www.xb6v.com/"
-    },
-    {
-      "key": "cainishi_咕咕",
-      "name": "咕咕┃动漫",
-      "type": 3,
-      "api": "csp_AppSxGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "ext": "https:///rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo"
-    },
-    {
-      "key": "cainishi_Dm84",
-      "name": "巴士┃动漫",
-      "type": 3,
-      "api": "csp_Dm84Guard",
-      "timeout": 10,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1
     },
     {
       "key": "cainishi_Aid",
@@ -9406,22 +8699,6 @@
       "hide": 1
     },
     {
-      "key": "red_HonHon",
-      "name": "🍅┃红红┃短剧",
-      "type": 3,
-      "api": "csp_HonHon",
-      "searchable": 0,
-      "quickSearch": 0,
-      "genre": "shortdrama",
-      "filterable": 0,
-      "ext": {
-        "host": "https://short.fishcloud.top",
-        "quality": "1080p",
-        "danmu": false
-      },
-      "jar": "https://qiniu.gongxueyun.com/upload/5695330/2026-09-18/leave/466454997_2_1789736334293.jar;md5;835b242eab0da4d3402724dd4705a9e8"
-    },
-    {
       "key": "red_DJHub",
       "name": "🎭┃短剧┃聚合",
       "type": 3,
@@ -9432,17 +8709,6 @@
       "filterable": 0,
       "changeable": 0,
       "jar": "https://qiniu.gongxueyun.com/upload/5695330/2026-09-18/leave/466454997_2_1789736334293.jar;md5;835b242eab0da4d3402724dd4705a9e8"
-    },
-    {
-      "key": "戏 曲",
-      "name": "🎈┃国粹┃戏曲",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://z.qiqiv.cn/666/json/Blixq.json",
-      "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
       "key": "相声小品",
@@ -9486,17 +8752,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "https://z.qiqiv.cn/666/json/Bili.json",
-      "jar": "https://z.qiqiv.cn/666/spider.jar"
-    },
-    {
-      "key": "csp_Bili短剧",
-      "name": "🅱️┃哔哩┃短剧",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://z.qiqiv.cn/666/json/Bili短剧.json",
       "jar": "https://z.qiqiv.cn/666/spider.jar"
     },
     {
@@ -10003,7 +9258,7 @@
       }
     },
     {
-      "key": "fuleixyx_河马短剧",
+      "key": "河马短剧",
       "name": "河马｜短剧合集",
       "type": 3,
       "api": "csp_HemaDJ",
@@ -10014,7 +9269,7 @@
       "genre": "shortdrama"
     },
     {
-      "key": "fuleixyx_好看短剧",
+      "key": "好看短剧",
       "name": "好看｜短剧合集",
       "type": 3,
       "api": "csp_HKDJ",
@@ -10025,7 +9280,7 @@
       "genre": "shortdrama"
     },
     {
-      "key": "fuleixyx_围观短剧",
+      "key": "围观短剧",
       "name": "围观｜短剧合集",
       "type": 3,
       "api": "csp_WeiguanDJ",
@@ -10046,7 +9301,7 @@
       "filterable": 1
     },
     {
-      "key": "fuleixyx_星芽短剧",
+      "key": "星芽短剧",
       "name": "星芽｜短剧合集",
       "type": 3,
       "api": "https://gitee.com/fuleishu/fulei/raw/master/json/星芽短剧.py",
@@ -10055,13 +9310,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "genre": "shortdrama"
-    },
-    {
-      "key": "py聚合短剧",
-      "name": "短剧丨聚合短剧",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tomorrow/refs/heads/master/py/短剧聚合2.py",
-      "changeable": 1
     },
     {
       "key": "fuleixyx_荐片",
@@ -10191,7 +9439,7 @@
       }
     },
     {
-      "key": "fuleixyx_哔哩哔哩戏曲",
+      "key": "哔哩哔哩戏曲",
       "name": "哔哩｜戏曲合集",
       "type": 3,
       "api": "csp_Bili",
@@ -10200,6 +9448,74 @@
       "filterable": 0,
       "ext": {
         "json": "https://gitee.com/fuleishu/fulei/raw/master/json/哔哩哔哩戏曲.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "fuleixyx_少儿教育",
+      "name": "少儿｜教育资源",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "json": "https://gitee.com/fuleishu/fulei/raw/master/json/少儿教育.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "fuleixyx_小学课堂",
+      "name": "小学｜课堂资源",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "json": "https://gitee.com/fuleishu/fulei/raw/master/json/小学课堂.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "fuleixyx_初中课堂",
+      "name": "初中｜课堂资源",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "json": "https://gitee.com/fuleishu/fulei/raw/master/json/初中课堂.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "高中课堂",
+      "name": "高中｜课堂资源",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "json": "https://gitee.com/fuleishu/fulei/raw/master/json/高中课堂.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
