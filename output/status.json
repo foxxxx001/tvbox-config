@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16 01:57:42",
-  "repo": "foxxxx001/tvbox-config",
+  "updated_at": "2026-10-16 12:02:45",
+  "repo": "YOUR_USERNAME/tvbox-ysc-config",
   "sources": [
     {
       "id": "X4",
@@ -55,7 +55,7 @@
       "id": "feimao",
       "name": "肥猫",
       "ok": true,
-      "used_url": "http://肥猫.net/tv",
+      "used_url": "https://0.wudaozhe.net/tvbox/肥猫.json",
       "error": null
     },
     {
@@ -68,9 +68,9 @@
     {
       "id": "red",
       "name": "二月红",
-      "ok": false,
-      "used_url": null,
-      "error": "Expecting value: line 391 column 7 (char 9349)"
+      "ok": true,
+      "used_url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
+      "error": null
     },
     {
       "id": "fuleixyx",

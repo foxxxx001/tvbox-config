@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-10-16 01:57:42（北京时间） · 成功 **10/11** 个源
+> 🔄 最近更新：2026-10-16 12:02:45（北京时间） · 成功 **11/11** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -23,9 +23,9 @@
 | 潇洒 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/潇洒.json` |
 | 嗷呜 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/嗷呜.json` |
 | 幸福年年 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/幸福年年.json` |
-| 肥猫 | ✅ 成功 | `http://肥猫.net/tv` |
+| 肥猫 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/肥猫.json` |
 | 菜妮丝 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/菜妮丝.json` |
-| 二月红 | ❌ 失败 | Expecting value: line 391 column 7 (char 9349) |
+| 二月红 | ✅ 成功 | `https://700sjro44343.vicp.fun/eggp/0211/tv.json` |
 | 芙蕾 | ✅ 成功 | `https://gitee.com/fuleishu/fulei/raw/master/fuleixyx.json` |
 <!-- STATUS_END -->
 
@@ -53,18 +53,18 @@ tvbox-ysc-config/
 
 | 类型 | 地址 | 说明 |
 | --- | --- | --- |
-| **多仓订阅（推荐）** | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/多仓订阅.json` | App 内可在各源之间切换 |
-| **单仓聚合** | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/单仓聚合.json` | 所有源站点合并成一个，无需切换 |
-| 单仓 · 肥猫 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json` | 单独使用某一个源 |
-| 单仓 · 饭太硬 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/fantaiying.json` | |
-| 单仓 · 王二小 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json` | |
-| 单仓 · 讴歌 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/ouge.json` | |
-| 单仓 · 摸鱼 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/moyu.json` | |
-| 单仓 · OK | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/ok.json` | |
-| 单仓 · 小米 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaomi.json` | |
-| 单仓 · 巧记 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/qiaoji.json` | |
-| 单仓 · 4K小盒子 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json` | |
-| 单仓 · 潇洒 | `https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaosa.json` | |
+| **多仓订阅（推荐）** | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/多仓订阅.json` | App 内可在各源之间切换 |
+| **单仓聚合** | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/单仓聚合.json` | 所有源站点合并成一个，无需切换 |
+| 单仓 · 肥猫 | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/feimao.json` | 单独使用某一个源 |
+| 单仓 · 饭太硬 | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/fantaiying.json` | |
+| 单仓 · 王二小 | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/wangerxiao.json` | |
+| 单仓 · 讴歌 | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/ouge.json` | |
+| 单仓 · 摸鱼 | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/moyu.json` | |
+| 单仓 · OK | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/ok.json` | |
+| 单仓 · 小米 | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/xiaomi.json` | |
+| 单仓 · 巧记 | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/qiaoji.json` | |
+| 单仓 · 4K小盒子 | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/4k.json` | |
+| 单仓 · 潇洒 | `https://raw.githubusercontent.com/foxxxx001/tvbox-config/main/output/xiaosa.json` | |
 
 > 多仓订阅与单仓文件里的地址由脚本根据 `GITHUB_REPOSITORY` 环境变量自动生成。若国内直连 raw.githubusercontent.com 慢，可套一层 `ghproxy` / `gh-proxy` 等加速前缀。
 
@@ -100,16 +100,30 @@ tvbox-ysc-config/
 
 ```bash
 pip install -r requirements.txt
-REPO=Lightconer/tvbox-ysc-config python scripts/update.py
+REPO=foxxxx001/tvbox-config python scripts/update.py
+```
+
+如需在聚合单仓中排除某些站点，可加 `-x` 参数（可多次指定，按 `name` 是否包含关键字过滤，不影响各源独立文件）：
+
+```bash
+REPO=foxxxx001/tvbox-config python scripts/update.py -x 关键字A -x 关键字B
+```
+
+并发下载线程数可用 `--thread` 指定（默认 4，最高不超过系统核心数量）：
+
+```bash
+REPO=foxxxx001/tvbox-config python scripts/update.py --thread 8
 ```
 
 ## 七、脚本特性
 
+- **多线程并发下载**：多个配置源并行抓取，缩短整体更新时间；每个源内部仍按主/备地址顺序回退。可用 `--thread` 指定线程数（默认 4，上限为系统核心数量）。
 - **中文域名自动转 punycode**：`饭太硬.com` → `xn--sss604efuw.com`，避免 DNS 解析失败。
 - **多地址回退**：每个源按顺序尝试主/备用地址，单个地址失败不影响其他源。
 - **智能重试**：仅对超时、连接错误、空响应等瞬态问题退避重试；4xx/5xx 等确定性失败直接跳过。
-- **反爬兼容**：使用简洁 UA（部分接口对完整浏览器 UA 下发挑战页），自动剔除 JSON 内嵌的 `//` 注释，兼容未转义控制字符。
+- **反爬兼容**：使用简洁 UA（部分接口对完整浏览器 UA 下发挑战页），自动剔除 JSON 内嵌的 `//` 注释与数组/对象末尾多余逗号（宽松 JSON），兼容未转义控制字符。
 - **聚合单仓**：把所有成功源的 `sites` 按 key 去重合并（重复 key 自动加源前缀），`lives/parses` 等列表合并去重。
+- **按名称过滤站点**：可选 `-x/--exclude` 参数（可多次），聚合单仓中 `name` 包含指定关键字的站点会被排除，不影响各源独立文件。
 - **状态可视化**：每次更新自动刷新 README 状态表与 shields.io 徽章。
 - **部分成功可用**：只要有一个源成功就产出可用订阅，失败源记录在 `status.json` 与 README 状态表。
 

@@ -5,7 +5,7 @@
 =================================
 功能：
   1. 读取 config/sources.json 中的配置源列表
-  2. 对每个源依次尝试"主线 + 备用"多个地址，自动做中文域名 punycode 转换
+  2. 多线程并发下载多个配置源（每个源内部仍按"主线 + 备用"顺序回退），自动做中文域名 punycode 转换
   3. 校验返回内容是否为合法的 TVBox/影视仓 单仓配置（包含 sites/spiders/lives 等字段）
   4. 将每个源的最新配置保存到 output/<id>.json
   5. 生成多仓订阅文件 output/多仓订阅.json（可直接填进影视仓的"订阅"或"多仓"）
@@ -16,13 +16,21 @@
 用于拼出多仓订阅里指向本仓库 raw 文件的完整 URL。
 用法：
   python scripts/update.py
+  python scripts/update.py -x 关键字A -x 关键字B
+  python scripts/update.py --thread 8 -x 关键字A
+可选参数：
+  -x/--exclude NAME  聚合单仓 output/单仓聚合.json 中 name 包含 NAME 的站点节点会被排除，
+                     可多次指定以过滤多个名称（不影响各源独立文件）。
+  --thread N         并发下载线程数，默认 4，最高不超过系统核心数量。
 """
+import argparse
 import datetime
 import json
 import os
 import sys
 import time
 import urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 
@@ -38,8 +46,8 @@ USER_AGENT = "Mozilla/5.0"
 TIMEOUT = 20  # 单个地址超时（秒）
 MAX_RETRIES = 2  # 单个地址最大尝试次数（仅对超时/连接类瞬态错误重试）
 RETRY_BACKOFF = 3  # 重试基础等待秒数
-URL_INTERVAL = 1.5  # 每个地址之间的小间隔秒数（降低被限流概率）
-SOURCE_INTERVAL = 3  # 每个源之间的间隔秒数（降低被限流概率）
+URL_INTERVAL = 1.5  # 同一源内各备用地址之间的小间隔秒数（降低被限流概率）
+DEFAULT_WORKERS = 4  # 并发下载默认线程数（--thread 未指定时使用；上限为系统核心数量）
 
 # 判定"像 TVBox 单仓配置"的顶层字段
 TVBOX_KEYS = ("sites", "spiders", "lives", "store", "exts", "parses", "flags")
@@ -52,11 +60,53 @@ def _strip_js_comments(text: str) -> str:
     return "\n".join(cleaned)
 
 
+def _strip_trailing_commas(text: str) -> str:
+    """剔除数组/对象末尾的多余逗号（部分接口输出的是"宽松 JSON"）。
+
+    例如 ["a", "b",] 中的末尾逗号。逐字符扫描并跳过字符串字面量，
+    避免误伤字符串内出现的逗号。
+    """
+    out = []
+    in_str = False
+    esc = False
+    i = 0
+    n = len(text)
+    while i < n:
+        ch = text[i]
+        if in_str:
+            out.append(ch)
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+            i += 1
+            continue
+        if ch == '"':
+            in_str = True
+            out.append(ch)
+            i += 1
+            continue
+        if ch == ",":
+            # 向后跳过空白，若紧跟 } 或 ] 则为尾部多余逗号，删除
+            j = i + 1
+            while j < n and text[j] in " \t\r\n":
+                j += 1
+            if j < n and text[j] in "}]":
+                i += 1
+                continue
+        out.append(ch)
+        i += 1
+    return "".join(out)
+
+
 def parse_json_lenient(text: str):
-    """宽容解析：去 BOM/空白、剔 // 注释后优先整体 json.loads；
+    """宽容解析：去 BOM/空白、剔 // 注释与尾部多余逗号后优先整体 json.loads；
     若接口返回了拼接的多段 JSON，取第一段有效对象。"""
     text = text.lstrip("\ufeff").strip()
     text = _strip_js_comments(text)
+    text = _strip_trailing_commas(text)
     try:
         # strict=False 允许字符串中出现未转义的控制字符（部分接口的 JSON 不规范）
         return json.loads(text, strict=False)
@@ -144,6 +194,69 @@ def fetch_config(url: str) -> dict:
     raise last_err
 
 
+def fetch_source(src: dict, raw_base: str) -> dict:
+    """抓取单个配置源：按主/备地址顺序回退，全部失败时回退到上次缓存。
+
+    供多线程并发调用（各源互不依赖）；内部地址回退仍保持顺序。
+    raw_base: 多仓订阅中指向本仓库 raw 文件的 URL 前缀。
+    返回结构化结果，由 main 统一汇总。
+    """
+    name = src.get("name", "未知")
+    sid = src.get("id", name)
+    urls = src.get("urls", [])
+
+    result = {
+        "id": sid,
+        "name": name,
+        "ok": False,
+        "used_url": None,
+        "error": None,
+        "cached": False,
+        "data": None,
+    }
+
+    saved = False
+    for url in urls:
+        try:
+            data = fetch_config(url)
+            out_path = os.path.join(OUTPUT_DIR, f"{sid}.json")
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            result["ok"] = True
+            result["used_url"] = url
+            result["data"] = data
+            saved = True
+            print(f"[OK]   {name} <- {url}")
+            break
+        except Exception as e:  # noqa: BLE001
+            print(f"[FAIL] {name}  {url}  ->  {e}")
+            result["error"] = str(e)
+
+        # 地址之间稍作间隔，避免被限流
+        time.sleep(URL_INTERVAL)
+
+    if not saved:
+        # 所有地址都失败：尝试使用上一次成功抓取的缓存文件
+        cache_path = os.path.join(OUTPUT_DIR, f"{sid}.json")
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    cached = json.load(f)
+                if is_valid_tvbox_config(cached):
+                    result["ok"] = True
+                    result["cached"] = True
+                    result["used_url"] = "(缓存)"
+                    result["data"] = cached
+                    saved = True
+                    print(f"[CACHE] {name}  使用上次缓存配置")
+            except Exception:
+                pass
+        if not saved:
+            result["error"] = result["error"] or "所有地址均失败"
+            print(f"[FAIL] {name}  全部地址失败")
+    return result
+
+
 def _merge_list(fetched, field):
     """合并各源中的列表字段（lives/parses/doh 等），按 name/url 去重。"""
     seen = set()
@@ -163,11 +276,12 @@ def _merge_list(fetched, field):
     return out
 
 
-def merge_configs(fetched):
+def merge_configs(fetched, exclude_names=()):
     """把多个单仓配置合并成一个聚合单仓：
     - 以第一个成功源为基底（保留 spider/logo/wallpaper 等）
     - sites 按 key 去重，重复 key 加源 id 前缀
     - lives/parses/doh/rules/flags/exts 等列表合并去重
+    - name 包含 exclude_names 中任一关键字的站点节点会被排除（大小写不敏感）
     fetched: [(sid, name, data_dict), ...]
     """
     if not fetched:
@@ -188,6 +302,11 @@ def merge_configs(fetched):
         for s in data.get("sites", []) or []:
             if not isinstance(s, dict):
                 continue
+            sname = s.get("name")
+            if sname is not None and any(
+                kw and kw.lower() in str(sname).lower() for kw in exclude_names
+            ):
+                continue  # name 命中排除关键字，跳过该站点节点
             key = s.get("key")
             if key is None:
                 key = json.dumps(s, ensure_ascii=False, sort_keys=True)
@@ -265,7 +384,38 @@ def write_badge(ok_count, total):
         json.dump(badge, f, ensure_ascii=False, indent=2)
 
 
-def main() -> int:
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(
+        description="影视仓 / TVBox 配置自动更新脚本（多线程并发下载 + 聚合单仓按名称过滤）"
+    )
+    parser.add_argument(
+        "-x",
+        "--exclude",
+        action="append",
+        default=[],
+        metavar="NAME",
+        help="output/单仓聚合.json 中 name 包含该关键字的站点节点将被排除；"
+        "可多次指定以过滤多个名称（不影响各源独立文件）",
+    )
+    parser.add_argument(
+        "--thread",
+        type=int,
+        default=DEFAULT_WORKERS,
+        metavar="N",
+        help=f"并发下载线程数，默认 {DEFAULT_WORKERS}，最高不超过系统核心数量",
+    )
+    args = parser.parse_args(argv)
+    if args.thread < 1:
+        parser.error("--thread 必须为不小于 1 的整数")
+    cores = os.cpu_count()
+    if cores is not None and args.thread > cores:
+        args.thread = cores  # 不得超过系统核心数量
+    return args
+
+
+def main(argv=None) -> int:
+    args = parse_args(argv)
+
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         cfg = json.load(f)
 
@@ -287,74 +437,52 @@ def main() -> int:
     subscriptions = []
     fetched = []  # [(sid, name, data_dict), ...] 用于聚合单仓
 
+    sources = cfg.get("sources", [])
+
+    # 多线程并发下载各源（每个源内部仍按主/备地址顺序回退，互不影响）
+    cores = os.cpu_count()
+    print(
+        f"并发下载线程数：{args.thread}"
+        f"（系统核心 {cores if cores is not None else '未知'}）"
+    )
+    results = [None] * len(sources)
+    with ThreadPoolExecutor(max_workers=args.thread) as pool:
+        future_to_idx = {
+            pool.submit(fetch_source, src, raw_base): i
+            for i, src in enumerate(sources)
+        }
+        for fut in as_completed(future_to_idx):
+            results[future_to_idx[fut]] = fut.result()
+
+    # 按 config 中的源顺序汇总结果，保证 status/订阅/聚合输出顺序稳定
     ok_count = 0
-    for src in cfg.get("sources", []):
-        name = src.get("name", "未知")
-        sid = src.get("id", name)
-        urls = src.get("urls", [])
-
-        entry = {"id": sid, "name": name, "ok": False, "used_url": None, "error": None}
-        saved = False
-
-        for url in urls:
-            try:
-                data = fetch_config(url)
-                out_path = os.path.join(OUTPUT_DIR, f"{sid}.json")
-                with open(out_path, "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
-                entry["ok"] = True
-                entry["used_url"] = url
-                entry["error"] = None
-                subscriptions.append(
-                    {"name": name, "url": f"{raw_base}/{sid}.json"}
-                )
-                fetched.append((sid, name, data))
-                ok_count += 1
-                saved = True
-                print(f"[OK]   {name} <- {url}")
-                break
-            except Exception as e:  # noqa: BLE001
-                print(f"[FAIL] {name}  {url}  ->  {e}")
-                entry["error"] = str(e)
-
-            # 地址之间稍作间隔，避免被限流
-            time.sleep(URL_INTERVAL)
-
-        if not saved:
-            # 所有地址都失败：尝试使用上一次成功抓取的缓存文件
-            cache_path = os.path.join(OUTPUT_DIR, f"{sid}.json")
-            if os.path.exists(cache_path):
-                try:
-                    with open(cache_path, "r", encoding="utf-8") as f:
-                        cached = json.load(f)
-                    if is_valid_tvbox_config(cached):
-                        subscriptions.append(
-                            {"name": name, "url": f"{raw_base}/{sid}.json"}
-                        )
-                        fetched.append((sid, name, cached))
-                        entry["ok"] = True
-                        entry["cached"] = True
-                        entry["used_url"] = "(缓存)"
-                        ok_count += 1
-                        saved = True
-                        print(f"[CACHE] {name}  使用上次缓存配置")
-                except Exception:
-                    pass
-            if not saved:
-                entry["error"] = entry["error"] or "所有地址均失败"
-                print(f"[FAIL] {name}  全部地址失败")
+    for res in results:
+        entry = {
+            "id": res["id"],
+            "name": res["name"],
+            "ok": res["ok"],
+            "used_url": res["used_url"],
+            "error": res["error"],
+        }
+        if res["cached"]:
+            entry["cached"] = True
         status["sources"].append(entry)
-
-        # 源之间稍作间隔，避免集中请求被限流
-        time.sleep(SOURCE_INTERVAL)
+        if not res["ok"]:
+            continue
+        subscriptions.append(
+            {"name": res["name"], "url": f"{raw_base}/{res['id']}.json"}
+        )
+        fetched.append((res["id"], res["name"], res["data"]))
+        ok_count += 1
 
     # 生成多仓订阅文件（影视仓"订阅/多仓"格式）
     sub_path = os.path.join(OUTPUT_DIR, "多仓订阅.json")
     with open(sub_path, "w", encoding="utf-8") as f:
         json.dump({"urls": subscriptions}, f, ensure_ascii=False, indent=2)
 
-    # 生成聚合单仓文件（把所有成功源的 sites/lives/parses 合并成一个单仓）
-    merged = merge_configs(fetched)
+    # 生成聚合单仓文件（把所有成功源的 sites/lives/parses 合并成一个单仓，
+    # 并按 -x 指定的关键字过滤掉 name 命中的站点节点）
+    merged = merge_configs(fetched, args.exclude)
     merged_path = os.path.join(OUTPUT_DIR, "单仓聚合.json")
     if merged is not None:
         with open(merged_path, "w", encoding="utf-8") as f:
