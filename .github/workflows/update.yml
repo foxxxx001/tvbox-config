@@ -42,7 +42,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run update script
-        run: python scripts/update.py -x 动漫 -x 短剧 -x 小学 -x 教育 -x 课堂 -x 体育 -x 戏曲
+        run: python scripts/update.py -end 有声 -end 动漫 -end 短剧 -end 少儿 -end 儿童 -end 小学 -end 教育 -end 课堂 -end 体育 -end 戏曲 -end 看球 -end 小说 -end 直播 -end 电台
 
       - name: Commit and push changes
         run: |

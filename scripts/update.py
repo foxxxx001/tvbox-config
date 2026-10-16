@@ -17,10 +17,13 @@
 用法：
   python scripts/update.py
   python scripts/update.py -x 关键字A -x 关键字B
-  python scripts/update.py --thread 8 -x 关键字A
+  python scripts/update.py -end 后缀A -end 后缀B
+  python scripts/update.py --thread 8 -x 关键字A -end 后缀A
 可选参数：
   -x/--exclude NAME  聚合单仓 output/单仓聚合.json 中 name 包含 NAME 的站点节点会被排除，
                      可多次指定以过滤多个名称（不影响各源独立文件）。
+  -end/--end SUFFIX  聚合单仓 output/单仓聚合.json 中 name 以 SUFFIX 结尾的站点节点会被排除，
+                     可多次指定以过滤多个后缀（不影响各源独立文件）。
   --thread N         并发下载线程数，默认 4，最高不超过系统核心数量。
 """
 import argparse
@@ -276,12 +279,13 @@ def _merge_list(fetched, field):
     return out
 
 
-def merge_configs(fetched, exclude_names=()):
+def merge_configs(fetched, exclude_names=(), exclude_ends=()):
     """把多个单仓配置合并成一个聚合单仓：
     - 以第一个成功源为基底（保留 spider/logo/wallpaper 等）
     - sites 按 key 去重，重复 key 加源 id 前缀
     - lives/parses/doh/rules/flags/exts 等列表合并去重
     - name 包含 exclude_names 中任一关键字的站点节点会被排除（大小写不敏感）
+    - name 以 exclude_ends 中任一字面量结尾的站点节点会被排除（大小写不敏感）
     fetched: [(sid, name, data_dict), ...]
     """
     if not fetched:
@@ -303,10 +307,12 @@ def merge_configs(fetched, exclude_names=()):
             if not isinstance(s, dict):
                 continue
             sname = s.get("name")
-            if sname is not None and any(
-                kw and kw.lower() in str(sname).lower() for kw in exclude_names
-            ):
-                continue  # name 命中排除关键字，跳过该站点节点
+            if sname is not None:
+                sname_l = str(sname).lower()
+                if any(kw and kw.lower() in sname_l for kw in exclude_names):
+                    continue  # name 命中排除关键字，跳过该站点节点
+                if any(kw and sname_l.endswith(kw.lower()) for kw in exclude_ends):
+                    continue  # name 以排除后缀结尾，跳过该站点节点
             key = s.get("key")
             if key is None:
                 key = json.dumps(s, ensure_ascii=False, sort_keys=True)
@@ -398,6 +404,15 @@ def parse_args(argv=None):
         "可多次指定以过滤多个名称（不影响各源独立文件）",
     )
     parser.add_argument(
+        "-end",
+        "--end",
+        action="append",
+        default=[],
+        metavar="SUFFIX",
+        help="output/单仓聚合.json 中 name 以该关键字结尾的站点节点将被排除；"
+        "可多次指定以过滤多个后缀（不影响各源独立文件）",
+    )
+    parser.add_argument(
         "--thread",
         type=int,
         default=DEFAULT_WORKERS,
@@ -481,8 +496,8 @@ def main(argv=None) -> int:
         json.dump({"urls": subscriptions}, f, ensure_ascii=False, indent=2)
 
     # 生成聚合单仓文件（把所有成功源的 sites/lives/parses 合并成一个单仓，
-    # 并按 -x 指定的关键字过滤掉 name 命中的站点节点）
-    merged = merge_configs(fetched, args.exclude)
+    # 并按 -x / -end 指定的关键字过滤掉 name 命中/后缀命中的站点节点）
+    merged = merge_configs(fetched, args.exclude, args.end)
     merged_path = os.path.join(OUTPUT_DIR, "单仓聚合.json")
     if merged is not None:
         with open(merged_path, "w", encoding="utf-8") as f:

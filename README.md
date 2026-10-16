@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-10-16 12:04:24（北京时间） · 成功 **11/11** 个源
+> 🔄 最近更新：2026-10-16 18:17:52（北京时间） · 成功 **11/11** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -109,6 +109,12 @@ REPO=foxxxx001/tvbox-config python scripts/update.py
 REPO=foxxxx001/tvbox-config python scripts/update.py -x 关键字A -x 关键字B
 ```
 
+如需排除 name 以指定后缀结尾的站点，可加 `-end` 参数（可多次指定）：
+
+```bash
+REPO=foxxxx001/tvbox-config python scripts/update.py -end 后缀A -end 后缀B
+```
+
 并发下载线程数可用 `--thread` 指定（默认 4，最高不超过系统核心数量）：
 
 ```bash
@@ -123,7 +129,7 @@ REPO=foxxxx001/tvbox-config python scripts/update.py --thread 8
 - **智能重试**：仅对超时、连接错误、空响应等瞬态问题退避重试；4xx/5xx 等确定性失败直接跳过。
 - **反爬兼容**：使用简洁 UA（部分接口对完整浏览器 UA 下发挑战页），自动剔除 JSON 内嵌的 `//` 注释与数组/对象末尾多余逗号（宽松 JSON），兼容未转义控制字符。
 - **聚合单仓**：把所有成功源的 `sites` 按 key 去重合并（重复 key 自动加源前缀），`lives/parses` 等列表合并去重。
-- **按名称过滤站点**：可选 `-x/--exclude` 参数（可多次），聚合单仓中 `name` 包含指定关键字的站点会被排除，不影响各源独立文件。
+- **按名称过滤站点**：可选 `-x/--exclude`（name 包含关键字）与 `-end/--end`（name 以指定后缀结尾），均可多次指定，聚合单仓中命中的站点会被排除，不影响各源独立文件。
 - **状态可视化**：每次更新自动刷新 README 状态表与 shields.io 徽章。
 - **部分成功可用**：只要有一个源成功就产出可用订阅，失败源记录在 `status.json` 与 README 状态表。
 
