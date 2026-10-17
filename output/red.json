@@ -1,5 +1,6 @@
 {
   "spider": "http://47.120.41.246:8025/vip/jar/lubin.php",
+  "wallpaper": "https://动态壁纸.饭.eu.org/",
   "lives": [
     {
       "name": "平台直播",
@@ -26,7 +27,7 @@
       "type": 3,
       "api": "csp_Douban",
       "ext": "https://gitee.com/jiandan1232/BabyOS/raw/master/test/douban.json",
-      "jar": "http://47.120.41.246:8025/vip/jar/tan3.php"
+      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
     },
     {
       "key": "配置中心",
@@ -64,24 +65,6 @@
       "hide": 1
     },
     {
-      "key": "玩偶哥哥",
-      "name": "💖┃玩偶┃4K💖",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://www.wogg.net",
-          "https://wogg.xxooo.cf",
-          "https://woggpan.xxooo.cf"
-        ]
-      },
-      "hide": 1
-    },
-    {
       "key": "木偶",
       "name": "💖┃木偶┃4K💖",
       "type": 3,
@@ -101,25 +84,6 @@
       "hide": 1
     },
     {
-      "key": "蜡笔",
-      "name": "💖┃蜡笔┃4K💖",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "http://www.xiaocgege.shop",
-          "http://xiaocge.fun",
-          "http://feimo.fun",
-          "http://xiaocgege.shop"
-        ]
-      },
-      "hide": 1
-    },
-    {
       "key": "多多",
       "name": "💖┃多多┃4K💖",
       "type": 3,
@@ -133,44 +97,6 @@
           "https://tv.yydsys.top",
           "https://tv.yydsys.cc",
           "https://tv.214521.xyz"
-        ]
-      },
-      "hide": 1
-    },
-    {
-      "key": "欧哥",
-      "name": "💖┃欧哥┃4K💖",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://woog.nxog.eu.org",
-          "https://woog.nxog.fun",
-          "https://woog.nxog.eu.org",
-          "https://woog.430520.xyz"
-        ]
-      },
-      "hide": 1
-    },
-    {
-      "key": "二小",
-      "name": "💖┃二小┃4K💖",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://2xiaopan.fun ",
-          "https://www.erxiaozhan.top",
-          "https://www.2xiaozhan.top",
-          "https://wexwp.cc"
         ]
       },
       "hide": 1
@@ -217,24 +143,42 @@
       }
     },
     {
-      "key": "夸父",
-      "name": "💖┃夸父┃4K💖",
+      "key": "JinPai",
+      "name": "🍂┃金牌┃秒播",
       "type": 3,
-      "api": "csp_PanWebShareKF",
+      "api": "csp_JinPai",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": {
-        "site": [
-          "https://www.kfzys.net"
-        ],
-        "cookie": "bbs_sid=p5mugcm9r147o1d3qpi0su1ucm; bbs_token=gDMAOehNUQetTJv9Lnet0J_2FGJmgdvnx90iTZqzU_2FnO0_3D"
-      },
-      "hide": 1
+      "filterable": 1,
+      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
+    },
+    {
+      "key": "520",
+      "name": "🍂┃爱你┃秒播",
+      "type": 3,
+      "api": "csp_MacCms",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "{\"site\":\"http://23.225.14.70:520\",\"block\":[\"co\",\"qq\",\"qiyi\",\"JD4k\"],\"rename\":{\"nby\":\"1NBY\",\"bba\":\"2BBA\",\"yktx\":\"3YKTX\",\"zijianm3u8\":\"ZJ4K\",\"bfzym3u8\":\"暴风资源\",\"ffm3u8\":\"非凡资源\",\"lzm3u8\":\"量子资源\"}}",
+      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
+    },
+    {
+      "key": "Dubk",
+      "name": "🍂┃杜北┃秒播",
+      "type": 3,
+      "api": "csp_Dubk",
+      "searchable": 1,
+      "filterable": 1,
+      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
+    },
+    {
+      "name": "🍂┃橘汁┃快速",
+      "key": "线路14",
+      "type": 3,
+      "jar": "https://zl.wpscdn.cn/2026/09/11/space_img/0f5c235d-ee40-42a0-a19a-b7f29986c51c.png;md5;7a2cb30dc4937d27e57288b5c381e19c",
+      "api": "csp_Woshinidie",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "华谊",
