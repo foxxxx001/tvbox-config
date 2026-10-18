@@ -3074,8 +3074,18 @@
       "ext": "http:///AfLGR2SW/7tjQA3K8Qgg5u7AG1NNWsCVAVxfMv/V44kP5aqzon5weT9IvX2w2KtBeMpAxc+Y0yRLN0eXf6oiuLw="
     },
     {
+      "key": "xiaozuo",
+      "name": "🍃┆等风┆4K",
+      "type": 3,
+      "api": "csp_DengFeng",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http:///ARRavWPOi7W2Usqhe54R+NW2sQ6CCBOYajU9bIz/WVyF75mrlP6UsAbts+o/eKOpDWbngYFUGIJGTa56hr3Hk0="
+    },
+    {
       "key": "bandeng",
-      "name": "🤤┆板凳┆4K",
+      "name": "🌾┆板凳┆4K",
       "type": 3,
       "api": "csp_BanDeng",
       "searchable": 1,
@@ -3227,16 +3237,6 @@
       "ext": "http:///AfOEx4Xw7b+FHm/68xw9/lZWy8xM/OLcY5h9FHwA2IgFua44tuuISikGbVerA833yP5nIZh+Jj6ZR+3PnpErsJm4+VBlVVEvIPDhjrx+HB/Lfjty5u+JKHoniwcTCyQBZQ=="
     },
     {
-      "key": "茶寮",
-      "name": "🍵┆茶寮┆APP",
-      "type": 3,
-      "api": "csp_NiuLai",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": "http:///AbT1mRO9mdV/fKxQSIp2Z0VDEqtFYo24Gg6BFT05FFPMoQC7rwZK2J4Ib2y+3MPCAKAYagodZdIJ7J7lxhTnINQS1SS+MgfVttlMlNoJWzdkYbhjK9vfVH1A6DXtvayirg=="
-    },
-    {
       "key": "竹隐",
       "name": "🎋┆竹隐┆APP",
       "type": 3,
@@ -3265,36 +3265,6 @@
       "filterable": 1,
       "changeable": 0,
       "ext": "http:///AYVQFckfgSMV740pmmoXzEeC6ljk5SNI/vhWnsIgCUWttSOCyil7DK8MLbeYpwWSgUvM0jcGIDuwi43iiO0FSFX1ofrxXH3IU944OtJbNlpMo9hvLoJTJ2RQVjWu3HU58w=="
-    },
-    {
-      "key": "松庭",
-      "name": "🌲┆松庭┆APP",
-      "type": 3,
-      "api": "csp_NiuLai",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": "http:///AayZIHLytFqRQBn83cNEbPJG65XS7J95quL4n1pk3EbLbTKw4Mwp0EOi/s2lublGyePTrgU1en7nRytHPRQBxPWxtS5eqNQC3HUojpI56OacrwaltYCx354WpnriT625xA=="
-    },
-    {
-      "key": "纸鸢",
-      "name": "🪁┆纸鸢┆APP",
-      "type": 3,
-      "api": "csp_NiuLai",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": "http:///Af1RcEZ9vfQpZ5Ib5RWesjmyo2oaK9tP/4YYaPatEOn5T8+ue0nhZc2CbgOPi64vzvV7qLn5w47/MlcswCIdm7D0ye2x1TJuqbkTT0pvHvfwMtHcr/PkQ9l3cetXU2TU2g=="
-    },
-    {
-      "key": "墨砚",
-      "name": "🖋️┆墨砚┆APP",
-      "type": 3,
-      "api": "csp_NiuLai",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": "http:///AXBOapYonY2jiqXCu6S1ZcErGInklM7Lw7KRmM5SJ8g1ek0+BclBD74mE/Zku+mOKfgHWgWsxcPebrt0JiFv0Ps6tDbvx5t80MHLszRh0FUp"
     },
     {
       "key": "兰芷",
@@ -3863,7 +3833,7 @@
     },
     {
       "key": "Doubanaaaa",
-      "name": "🐮【更新日期:20261010】🐮",
+      "name": "🐮【更新日期:20261017】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -5011,27 +4981,6 @@
       }
     },
     {
-      "key": "苹果",
-      "name": "苹果 • APP",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "小苹果",
-        "commonKey": "ed5fdsgucxumegqa",
-        "publicKey": "https://9877.kstore.space/MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.juechufsh.android.xpg1",
-        "host": "",
-        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
-        "version": "1.0.0.3",
-        "decrypt": "0"
-      }
-    },
-    {
       "key": "橘汁",
       "name": "橘汁 • APP",
       "type": 3,
@@ -5072,7 +5021,7 @@
       }
     },
     {
-      "key": "xiaosha_苹果",
+      "key": "苹果",
       "name": "苹果 • APP",
       "type": 3,
       "api": "csp_AppDrama",
@@ -5122,19 +5071,6 @@
       }
     },
     {
-      "key": "魔方",
-      "name": "魔方 • APP",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://www.douy32mf.top",
-        "dataKey": "1234567887654321",
-        "dataIv": "1234567887654321"
-      }
-    },
-    {
       "key": "王子",
       "name": "王子 • APP",
       "type": 3,
@@ -5148,7 +5084,7 @@
       }
     },
     {
-      "key": "茉莉",
+      "key": "茉莉Get",
       "name": "茉莉 • APP",
       "type": 3,
       "api": "csp_AppGet",
@@ -5386,6 +5322,42 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "ext": {
+        "site": [
+          "https://4kzn.cc"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "小丑",
+      "name": "小丑 • 4K",
+      "type": 3,
+      "api": "csp_4KZhinan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": [
+          "https://4kxc.com"
+        ]
+      },
+      "timeout": 60
+    },
+    {
+      "key": "茉莉",
+      "name": "茉莉 • 4K",
+      "type": 3,
+      "api": "csp_HDmoli",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": [
+          "https://www.hdmoli.com",
+          "https://www.hdmoli.pro"
+        ]
+      },
       "timeout": 60
     },
     {
@@ -6888,7 +6860,7 @@
       }
     },
     {
-      "key": "xinfunianian_魔方",
+      "key": "魔方",
       "name": "魔方 • APP",
       "type": 3,
       "api": "csp_AppGet",
