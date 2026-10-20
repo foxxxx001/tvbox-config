@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-10-20 03:34:46（北京时间） · 成功 **11/11** 个源
+> 🔄 最近更新：2026-10-20 12:22:10（北京时间） · 成功 **19/19** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -25,6 +25,14 @@
 | 幸福年年 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/幸福年年.json` |
 | 肥猫 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/肥猫.json` |
 | 菜妮丝 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/菜妮丝.json` |
+| 南风 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/南风.json` |
+| 老张 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/老张.json` |
+| 挺好 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/挺好.json` |
+| 小马 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/小马.json` |
+| 周J | ✅ 成功 | `https://0.wudaozhe.net/tvbox/周J.json` |
+| 俊宇 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/俊宇.json` |
+| clun | ✅ 成功 | `https://0.wudaozhe.net/tvbox/clun.json` |
+| 东篱 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/东篱.json` |
 | 二月红 | ✅ 成功 | `https://700sjro44343.vicp.fun/eggp/0211/tv.json` |
 | 芙蕾 | ✅ 成功 | `https://gitee.com/fuleishu/fulei/raw/master/fuleixyx.json` |
 <!-- STATUS_END -->

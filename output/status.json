@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20 03:34:46",
+  "updated_at": "2026-10-20 12:22:10",
   "repo": "foxxxx001/tvbox-config",
   "sources": [
     {
@@ -63,6 +63,62 @@
       "name": "菜妮丝",
       "ok": true,
       "used_url": "https://0.wudaozhe.net/tvbox/菜妮丝.json",
+      "error": null
+    },
+    {
+      "id": "nanfeng",
+      "name": "南风",
+      "ok": true,
+      "used_url": "https://0.wudaozhe.net/tvbox/南风.json",
+      "error": null
+    },
+    {
+      "id": "laozhang",
+      "name": "老张",
+      "ok": true,
+      "used_url": "https://0.wudaozhe.net/tvbox/老张.json",
+      "error": null
+    },
+    {
+      "id": "tinghao",
+      "name": "挺好",
+      "ok": true,
+      "used_url": "https://0.wudaozhe.net/tvbox/挺好.json",
+      "error": null
+    },
+    {
+      "id": "xiaoma",
+      "name": "小马",
+      "ok": true,
+      "used_url": "https://0.wudaozhe.net/tvbox/小马.json",
+      "error": null
+    },
+    {
+      "id": "zhouJ",
+      "name": "周J",
+      "ok": true,
+      "used_url": "https://0.wudaozhe.net/tvbox/周J.json",
+      "error": null
+    },
+    {
+      "id": "junyu",
+      "name": "俊宇",
+      "ok": true,
+      "used_url": "https://0.wudaozhe.net/tvbox/俊宇.json",
+      "error": null
+    },
+    {
+      "id": "clun",
+      "name": "clun",
+      "ok": true,
+      "used_url": "https://0.wudaozhe.net/tvbox/clun.json",
+      "error": null
+    },
+    {
+      "id": "dongli",
+      "name": "东篱",
+      "ok": true,
+      "used_url": "https://0.wudaozhe.net/tvbox/东篱.json",
       "error": null
     },
     {
