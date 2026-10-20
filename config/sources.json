@@ -102,6 +102,94 @@
       ]
     },
     {
+      "id": "nanfeng",
+      "name": "南风",
+      "urls": [
+        "https://0.wudaozhe.net/tvbox/南风.json",
+        "https://0.12yue.de5.net/tvbox/南风.json",
+        "https://0.cdz.qzz.io/tvbox/南风.json",
+        "https://0.wdzb.eu.cc/tvbox/南风.json",
+        "https://1.wudaozhe.net/tvbox/南风.json"
+      ]
+    },
+    {
+      "id": "laozhang",
+      "name": "老张",
+      "urls": [
+        "https://0.wudaozhe.net/tvbox/老张.json",
+        "https://0.12yue.de5.net/tvbox/老张.json",
+        "https://0.cdz.qzz.io/tvbox/老张.json",
+        "https://0.wdzb.eu.cc/tvbox/老张.json",
+        "https://1.wudaozhe.net/tvbox/老张.json"
+      ]
+    },
+    {
+      "id": "tinghao",
+      "name": "挺好",
+      "urls": [
+        "https://0.wudaozhe.net/tvbox/挺好.json",
+        "https://0.12yue.de5.net/tvbox/挺好.json",
+        "https://0.cdz.qzz.io/tvbox/挺好.json",
+        "https://0.wdzb.eu.cc/tvbox/挺好.json",
+        "https://1.wudaozhe.net/tvbox/挺好.json"
+      ]
+    },
+    {
+      "id": "xiaoma",
+      "name": "小马",
+      "urls": [
+        "https://0.wudaozhe.net/tvbox/小马.json",
+        "https://0.12yue.de5.net/tvbox/小马.json",
+        "https://0.cdz.qzz.io/tvbox/小马.json",
+        "https://0.wdzb.eu.cc/tvbox/小马.json",
+        "https://1.wudaozhe.net/tvbox/小马.json"
+      ]
+    },
+    {
+      "id": "zhouJ",
+      "name": "周J",
+      "urls": [
+        "https://0.wudaozhe.net/tvbox/周J.json",
+        "https://0.12yue.de5.net/tvbox/周J.json",
+        "https://0.cdz.qzz.io/tvbox/周J.json",
+        "https://0.wdzb.eu.cc/tvbox/周J.json",
+        "https://1.wudaozhe.net/tvbox/周J.json"
+      ]
+    },
+    {
+      "id": "junyu",
+      "name": "俊宇",
+      "urls": [
+        "https://0.wudaozhe.net/tvbox/俊宇.json",
+        "https://0.12yue.de5.net/tvbox/俊宇.json",
+        "https://0.cdz.qzz.io/tvbox/俊宇.json",
+        "https://0.wdzb.eu.cc/tvbox/俊宇.json",
+        "https://1.wudaozhe.net/tvbox/俊宇.json"
+      ]
+    },
+    {
+      "id": "clun",
+      "name": "clun",
+      "urls": [
+        "https://0.wudaozhe.net/tvbox/clun.json",
+        "https://0.12yue.de5.net/tvbox/clun.json",
+        "https://0.cdz.qzz.io/tvbox/clun.json",
+        "https://0.wdzb.eu.cc/tvbox/clun.json",
+        "https://1.wudaozhe.net/tvbox/clun.json"
+      ]
+    },
+    {
+      "id": "dongli",
+      "name": "东篱",
+      "urls": [
+        "https://0.wudaozhe.net/tvbox/东篱.json",
+        "https://0.12yue.de5.net/tvbox/东篱.json",
+        "https://0.cdz.qzz.io/tvbox/东篱.json",
+        "https://0.wdzb.eu.cc/tvbox/东篱.json",
+        "https://1.wudaozhe.net/tvbox/东篱.json"
+      ]
+    },    
+    {
       "id": "red",
       "name": "二月红",
       "urls": [
