@@ -171,16 +171,6 @@
       "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
     },
     {
-      "name": "🍂┃橘汁┃快速",
-      "key": "线路14",
-      "type": 3,
-      "jar": "https://zl.wpscdn.cn/2026/09/11/space_img/0f5c235d-ee40-42a0-a19a-b7f29986c51c.png;md5;7a2cb30dc4937d27e57288b5c381e19c",
-      "api": "csp_Woshinidie",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "华谊",
       "name": "🍁┃华谊┃APP",
       "type": 3,
