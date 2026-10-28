@@ -1,5 +1,5 @@
 {
-  "spider": "http://jx.pdscxz.cn/d/lz/izERL4dqpcab",
+  "spider": "http://47.120.41.246:8025/vip/jar/tan.php",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "lives": [
     {
@@ -23,7 +23,7 @@
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "💖豆瓣排行💖",
+      "name": "💥豆瓣排行💥",
       "type": 3,
       "api": "csp_Douban",
       "ext": "https://gitee.com/jiandan1232/BabyOS/raw/master/test/douban.json"
@@ -96,26 +96,24 @@
       "ext": "{\"site\":[\"https://1.star2.cn\"],\"name\":\"剧透社\"}"
     },
     {
-      "key": "苹果",
-      "name": "🍁┃苹果┃APP",
+      "key": "Gz360",
+      "name": "🍂┃瓜子┃秒播",
       "type": 3,
-      "api": "csp_AppDrama",
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "AppRJ",
+      "name": "🍂┃热播┃高清",
+      "type": 3,
+      "api": "csp_AppRJ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "appName": "小苹果",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.juechufsh.android.xpg1",
-        "host": "",
-        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
-        "version": "1.0.0.3",
-        "decrypt": "0"
-      },
-      "hide": 1,
-      "jar": "http://47.120.41.246:8025/vip/jar/lubin.php"
+        "url": "http://v.rbotv.cn"
+      }
     },
     {
       "key": "DongPian",
@@ -140,8 +138,7 @@
       "type": 3,
       "api": "csp_JinPai",
       "searchable": 1,
-      "filterable": 1,
-      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
+      "filterable": 1
     },
     {
       "key": "Dubk",
@@ -149,8 +146,7 @@
       "type": 3,
       "api": "csp_Dubk",
       "searchable": 1,
-      "filterable": 1,
-      "jar": "http://47.120.41.246:8025/vip/jar/tan.php"
+      "filterable": 1
     },
     {
       "name": "🍂┃橘汁┃快速",
@@ -181,83 +177,6 @@
       "hide": 1
     },
     {
-      "name": "🚀瓜子┃秒播",
-      "key": "Guazi",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "Guazi",
-      "jar": "http://jx.pdscxz.cn/d/lz/iI6AP4dqn58f"
-    },
-    {
-      "name": "⭐┃荐片┃快速",
-      "key": "JPian",
-      "type": 3,
-      "api": "csp_JPianAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "JPian",
-      "jar": "http://jx.pdscxz.cn/d/lz/iI6AP4dqn58f"
-    },
-    {
-      "name": "⭐┃热播┃快速",
-      "key": "Rbys",
-      "type": 3,
-      "api": "csp_RbysAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "Rbys",
-      "jar": "http://jx.pdscxz.cn/d/lz/iI6AP4dqn58f"
-    },
-    {
-      "name": "📦┃④线┃秒播",
-      "key": "AppV7Xyz",
-      "type": 3,
-      "api": "csp_AppV7Amns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AppV7Xyz",
-      "jar": "http://jx.pdscxz.cn/d/lz/iI6AP4dqn58f"
-    },
-    {
-      "name": "📦┃⑤线┃秒播",
-      "key": "AppV7Xnm",
-      "type": 3,
-      "api": "csp_AppV7Amns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AppV7Xnm",
-      "jar": "http://jx.pdscxz.cn/d/lz/iI6AP4dqn58f"
-    },
-    {
-      "name": "📦┃⑧线┃秒播",
-      "key": "AppV7Xsz",
-      "type": 3,
-      "api": "csp_AppV7Amns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AppV7Xsz",
-      "jar": "http://jx.pdscxz.cn/d/lz/iI6AP4dqn58f"
-    },
-    {
-      "name": "📦┃①线┃秒播",
-      "key": "AppV7Fz",
-      "type": 3,
-      "api": "csp_AppV7Amns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AppV7Fz",
-      "jar": "http://jx.pdscxz.cn/d/lz/iI6AP4dqn58f"
-    },
-    {
       "key": "戏 曲",
       "name": "🎈┃国粹┃戏曲",
       "type": 3,
@@ -265,8 +184,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://z.qiqiv.cn/666/json/Blixq.json",
-      "jar": "https://z.qiqiv.cn/666/spider.jar"
+      "ext": "https://z.qiqiv.cn/666/json/Blixq.json"
     },
     {
       "key": "相声小品",
@@ -276,8 +194,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://z.qiqiv.cn/666/json/Blixs.json",
-      "jar": "https://z.qiqiv.cn/666/spider.jar"
+      "ext": "https://z.qiqiv.cn/666/json/Blixs.json"
     },
     {
       "key": "演唱会",
@@ -287,8 +204,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://z.qiqiv.cn/666/json/演唱会.json",
-      "jar": "https://z.qiqiv.cn/666/spider.jar"
+      "ext": "https://z.qiqiv.cn/666/json/演唱会.json"
     },
     {
       "key": "MTV",
@@ -298,8 +214,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://z.qiqiv.cn/666/json/MTV.json",
-      "jar": "https://z.qiqiv.cn/666/spider.jar"
+      "ext": "https://z.qiqiv.cn/666/json/MTV.json"
     },
     {
       "key": "哔哩哔哩",
@@ -309,8 +224,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://z.qiqiv.cn/666/json/Bili.json",
-      "jar": "https://z.qiqiv.cn/666/spider.jar"
+      "ext": "https://z.qiqiv.cn/666/json/Bili.json"
     },
     {
       "key": "csp_Bili短剧",
@@ -320,8 +234,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://z.qiqiv.cn/666/json/Bili短剧.json",
-      "jar": "https://z.qiqiv.cn/666/spider.jar"
+      "ext": "https://z.qiqiv.cn/666/json/Bili短剧.json"
     },
     {
       "key": "影视解说",
@@ -331,8 +244,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://z.qiqiv.cn/666/json/影视解说.json",
-      "jar": "https://z.qiqiv.cn/666/spider.jar"
+      "ext": "https://z.qiqiv.cn/666/json/影视解说.json"
     },
     {
       "key": "push_agent",
