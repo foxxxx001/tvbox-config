@@ -116,6 +116,46 @@
       }
     },
     {
+      "key": "Jianpian",
+      "name": "🍂┃荐片┃1080P",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "quickSearch": 0,
+      "ext": {
+        "site": "https://api.ztcgi.com"
+      }
+    },
+    {
+      "key": "YingTan4K",
+      "name": "🍂┃影探┃1080P",
+      "type": 3,
+      "api": "csp_YingTan4K",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://cms.lyyytv.cn",
+        "parseApi": "http://fys.lyyytv.cn/api/index?parsesId=3&appid=10001&videoUrl="
+      }
+    },
+    {
+      "key": "YunDuo",
+      "name": "🍂┃大鹅┃1080P",
+      "type": 3,
+      "api": "csp_YunDuo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://323433ssdfd.top",
+        "block": [
+          "PO蓝光",
+          "CO4K"
+        ]
+      }
+    },
+    {
       "key": "DongPian",
       "name": "🍂┃懂片┃秒播",
       "type": 3,
