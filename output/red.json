@@ -1,11 +1,11 @@
 {
-  "spider": "http://47.120.41.246:8025/vip/jar/tan.php",
+  "spider": "http://118.89.172.248:8025/jar/tan.php",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "lives": [
     {
       "name": "平台直播",
       "type": 0,
-      "url": "http://47.120.41.246:8025/vip/jar/zb.php",
+      "url": "http://118.89.172.248:8025/jar/zb.php",
       "playerType": 1
     },
     {
@@ -26,7 +26,7 @@
       "name": "💥豆瓣排行💥",
       "type": 3,
       "api": "csp_Douban",
-      "jar": "http://47.120.41.246:8025/vip/jar/lubin.php"
+      "jar": "http://118.89.172.248:8025/jar/lubin.php"
     },
     {
       "key": "JianSou",
