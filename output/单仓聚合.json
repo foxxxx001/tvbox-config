@@ -3106,6 +3106,16 @@
       "ext": "http:///AfLGR2SW/7tjQA3K8Qgg5u7AG1NNWsCVAVxfMv/V44kP5aqzon5weT9IvX2w2KtBeMpAxc+Y0yRLN0eXf6oiuLw="
     },
     {
+      "key": "shangtou",
+      "name": "🫠┆上头┆4K",
+      "type": 3,
+      "api": "csp_ShangTou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "Ab723PUSGcnjpXT6567J5El7ZP+7lqBKJnQzkeqdAaVU29VedG35Y36vvAZWXOyL7tUL38RB0IWmvwZj4wWtuwyEOmAg2Nbpi1z46QBiBTmY"
+    },
+    {
       "key": "XieHui",
       "name": "🫖┆歇会┆4K",
       "type": 3,
@@ -3895,7 +3905,7 @@
     },
     {
       "key": "Doubanaaaa",
-      "name": "🐮【更新日期:20261031】🐮",
+      "name": "🐮【更新日期:20261102】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -5609,6 +5619,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://xunlei8.me"
+    },
+    {
+      "key": "电影港",
+      "name": "电影港 • 磁力",
+      "type": 3,
+      "api": "csp_DianYingG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "阿里云盘",
@@ -7775,6 +7794,32 @@
       "playerType": 2
     },
     {
+      "key": "PanMarket",
+      "name": "🐼┃网盘┃应用",
+      "type": 3,
+      "api": "csp_PanMarket",
+      "searchable": 0,
+      "style": {
+        "type": "list"
+      },
+      "ext": {
+        "categories": [
+          {
+            "name": "Fongmi影视",
+            "url": "https://pan.quark.cn/s/7129866d8655"
+          },
+          {
+            "name": "OK影视",
+            "url": "https://pan.quark.cn/s/cc286c991136"
+          },
+          {
+            "name": "Kazumi",
+            "url": "https://pan.quark.cn/s/e77ca870e15e"
+          }
+        ]
+      }
+    },
+    {
       "key": "csp_FeiMaoUC",
       "name": "⚡┃闪电┃优汐",
       "type": 3,
@@ -7951,7 +7996,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.4kcz.com/"
+      "ext": "https://cz01.vip"
     },
     {
       "key": "csp_SP360",
@@ -13021,6 +13066,20 @@
       "jar": "http://118.89.172.248:8025/jar/lubin.php"
     },
     {
+      "key": "red_配置中心",
+      "name": "⚙️┃配置┃中心⚙️",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "jar": "http://118.89.172.248:8025/jar/lubin.php"
+    },
+    {
       "key": "JianSou",
       "name": "💖┃简搜┃4K💖",
       "type": 3,
@@ -13117,15 +13176,6 @@
         "danmu": true,
         "danmu_api": "https://dm.211.li/nonay"
       }
-    },
-    {
-      "key": "red_AppDramaPingguo",
-      "name": "🍏苹果┃1080P",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "AppRJ",

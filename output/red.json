@@ -29,6 +29,20 @@
       "jar": "http://118.89.172.248:8025/jar/lubin.php"
     },
     {
+      "key": "配置中心",
+      "name": "⚙️┃配置┃中心⚙️",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "jar": "http://118.89.172.248:8025/jar/lubin.php"
+    },
+    {
       "key": "JianSou",
       "name": "💖┃简搜┃4K💖",
       "type": 3,
@@ -125,15 +139,6 @@
         "danmu": true,
         "danmu_api": "https://dm.211.li/nonay"
       }
-    },
-    {
-      "key": "AppDramaPingguo",
-      "name": "🍏苹果┃1080P",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "AppRJ",
