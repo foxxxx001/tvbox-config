@@ -26,7 +26,7 @@
       "name": "💥豆瓣排行💥",
       "type": 3,
       "api": "csp_Douban",
-      "jar": "http://118.89.172.248:8025/jar/lubin.php"
+      "jar": "http://118.89.172.248:8025/jar/lubin2.php"
     },
     {
       "key": "配置中心",

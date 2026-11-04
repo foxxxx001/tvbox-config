@@ -2514,7 +2514,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单<修复所有>",
+      "name": "豆豆┃片单",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -3230,6 +3230,16 @@
       }
     },
     {
+      "key": "嗑剧",
+      "name": "🍿┆嗑剧┆4K",
+      "type": 3,
+      "api": "csp_NiuLai",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "http:///Ab6RU4ow2BTC3y169gXHkoGyOzagKI89ksf5hxcm0/J5a7/pusSapfK8Oy6MtmlqAq8DsECmgbQ377MzwhHsU61D51ptVLqXXNu87y1TOl17"
+    },
+    {
       "key": "凝光",
       "name": "✨┆凝光┆4K",
       "type": 3,
@@ -3905,7 +3915,7 @@
     },
     {
       "key": "Doubanaaaa",
-      "name": "🐮【更新日期:20261102】🐮",
+      "name": "🐮【更新日期:20261104】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -4474,14 +4484,6 @@
       "changeable": 0
     },
     {
-      "key": "BookAiShiJie",
-      "name": "🎃‍极品┃听书🎃",
-      "type": 3,
-      "api": "csp_BookAiShiJieGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "BookAiYueTing",
       "name": "🎃‍悦庭┃听书🎃",
       "type": 3,
@@ -4937,6 +4939,16 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       }
+    },
+    {
+      "key": "快映fox",
+      "name": "快映 • APP",
+      "type": 3,
+      "api": "csp_AppFox",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.pjb777.top/ky4kbgq7b273.json"
     },
     {
       "key": "一起影视",
@@ -5491,12 +5503,6 @@
         "type": "list"
       },
       "timeout": 60
-    },
-    {
-      "key": "巨量",
-      "name": "巨量 • 影视",
-      "type": 1,
-      "api": "https://api.juliang.live/api/provide/vod"
     },
     {
       "key": "飞娱影视",
@@ -13063,7 +13069,7 @@
       "name": "💥豆瓣排行💥",
       "type": 3,
       "api": "csp_Douban",
-      "jar": "http://118.89.172.248:8025/jar/lubin.php"
+      "jar": "http://118.89.172.248:8025/jar/lubin2.php"
     },
     {
       "key": "red_配置中心",
