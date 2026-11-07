@@ -107,7 +107,7 @@
       "changeable": 1,
       "ext": {
         "v2": "1",
-        "deviceId": "6dc66339e1314f88"
+        "deviceId": "http://www.饭太硬.net/6dc66339e1314f88"
       }
     },
     {
@@ -194,8 +194,8 @@
       "type": 3,
       "api": "csp_FyGuard",
       "ext": {
-        "type": "video",
-        "name": "Fy"
+        "type": "http://www.饭太硬.net/video",
+        "name": "http://www.饭太硬.net/Fy"
       },
       "quickSearch": 1,
       "searchable": 1,
@@ -261,8 +261,8 @@
       "type": 3,
       "api": "csp_AiDjGuard",
       "ext": {
-        "type": "video",
-        "name": "短剧",
+        "type": "http://www.饭太硬.net/video",
+        "name": "http://www.饭太硬.net/短剧",
         "danMu": false
       },
       "indexs": 0,
@@ -330,7 +330,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8="
+      "ext": "http://www.饭太硬.net/uqGL1fpJNAUN8ORQgIPD+b6l+CzC2t8="
     },
     {
       "key": "MTV",
