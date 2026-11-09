@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 02:36:11",
+  "updated_at": "2026-11-09 16:52:30",
   "repo": "foxxxx001/tvbox-config",
   "sources": [
     {
@@ -68,9 +68,9 @@
     {
       "id": "nanfeng",
       "name": "南风",
-      "ok": false,
-      "used_url": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "ok": true,
+      "used_url": "https://0.wudaozhe.net/tvbox/南风.json",
+      "error": null
     },
     {
       "id": "laozhang",

@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-11-09 02:36:11（北京时间） · 成功 **18/19** 个源
+> 🔄 最近更新：2026-11-09 16:52:30（北京时间） · 成功 **19/19** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -25,7 +25,7 @@
 | 幸福年年 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/幸福年年.json` |
 | 肥猫 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/肥猫.json` |
 | 菜妮丝 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/菜妮丝.json` |
-| 南风 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
+| 南风 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/南风.json` |
 | 老张 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/老张.json` |
 | 挺好 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/挺好.json` |
 | 小马 | ✅ 成功 | `https://0.wudaozhe.net/tvbox/小马.json` |
