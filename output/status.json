@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-11-09 16:52:30",
+  "updated_at": "2026-11-10 07:14:09",
   "repo": "foxxxx001/tvbox-config",
   "sources": [
     {
       "id": "X4",
       "name": "X4菠菜园",
       "ok": true,
-      "used_url": "https://0.wudaozhe.net/tvbox/X4菠菜园.json",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "cached": true
     },
     {
       "id": "fantaiying",
