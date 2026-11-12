@@ -3955,7 +3955,7 @@
     },
     {
       "key": "Doubanaaaa",
-      "name": "🐮【更新日期:20261106】🐮",
+      "name": "🐮【更新日期:20261112】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -5005,6 +5005,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
+    },
+    {
+      "key": "xiaosha_下饭",
+      "name": "下饭 • APP",
+      "type": 3,
+      "api": "csp_JuXiaFan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "快映fox",
@@ -6096,6 +6105,15 @@
       "ext": "http://www.英格里希嗷呜.top/Xxxg"
     },
     {
+      "name": "🔥下饭┃推荐",
+      "key": "Xfdh",
+      "type": 3,
+      "api": "csp_XfdhAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
       "name": "⚙️配置┃中心",
       "key": "MyConfig",
       "type": 3,
@@ -6632,15 +6650,6 @@
       "key": "PSfish",
       "type": 3,
       "api": "csp_PSfishAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "name": "🔍短剧┃盘搜",
-      "key": "PSdju",
-      "type": 3,
-      "api": "csp_PSdjuAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -8591,7 +8600,7 @@
       "name": "Ⓜ️嗷呜弹幕设置",
       "type": 3,
       "api": "csp_AAConfigAmns",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "key": "ConfigCenter",
@@ -8623,7 +8632,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Guazi",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "key": "天天",
@@ -8880,7 +8889,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Mtq",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "🍊柚子",
@@ -8891,7 +8900,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Xyz",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "📦师兄",
@@ -8902,7 +8911,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Dsx",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "🏃‍♂️‍➡️追剧",
@@ -8913,7 +8922,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Zjdr",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "🍌小黄人",
@@ -8924,7 +8933,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Xhr",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "📦咸鱼",
@@ -8935,7 +8944,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Xy",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "📦零零七",
@@ -8946,7 +8955,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Llq",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "🐶特狗",
@@ -8957,7 +8966,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV6Tg",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "🚀秋天",
@@ -8968,7 +8977,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/NewGrV2",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "⭐杜北",
@@ -8979,7 +8988,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Dubk",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "⭐荐片",
@@ -8990,7 +8999,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/JPian",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "⭐爱看",
@@ -9000,7 +9009,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "🏭厂长",
@@ -9011,7 +9020,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Czzy",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "⭐韩剧",
@@ -9021,7 +9030,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "🔥经典推荐",
@@ -9032,7 +9041,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Xxxg",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "🔥短剧推荐",
@@ -9044,7 +9053,7 @@
       "changeable": 1,
       "genre": "shortdrama",
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Hgdh",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "📖富强听书",
@@ -9054,7 +9063,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "📖文明听书",
@@ -9064,7 +9073,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "📖嗷嗚听书",
@@ -9074,7 +9083,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "name": "🎸酷听音乐",
@@ -9085,7 +9094,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "genre": "music",
-      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/0286b8d7-091c-456f-ad86-f17f7ec93778.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/ebab8029-2b87-42f8-a964-ec1ca3de4052.png"
     },
     {
       "key": "nanfeng_SeedHub",
@@ -14617,14 +14626,6 @@
       "ua": "okHttp/Mod-1.5.0.0"
     },
     {
-      "name": "YY轮播",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
-      "playerType": 2,
-      "timeout": 10,
-      "ua": "okHttp/Mod-1.5.0.0"
-    },
-    {
       "name": "superiptv",
       "type": 0,
       "url": "http://127.0.0.1:5266/iptv.m3u",
@@ -14649,6 +14650,14 @@
       "name": "B站直播",
       "type": 0,
       "url": "https://sub.ottiptv.cc/bililive.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0"
+    },
+    {
+      "name": "YY轮播",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
