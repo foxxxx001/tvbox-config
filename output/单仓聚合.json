@@ -2514,7 +2514,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <Fix Everything>",
+      "name": "豆豆┃片单 <升级弹幕>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -2630,17 +2630,6 @@
       "changeable": 1
     },
     {
-      "key": "海绵",
-      "name": "🐬海绵┃不卡",
-      "type": 3,
-      "api": "csp_HmysGuard",
-      "timeout": 10,
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "立播",
       "name": "🌟立播┃不卡",
       "type": 3,
@@ -2670,6 +2659,17 @@
       "type": 3,
       "api": "csp_BttwooGuard",
       "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "海绵",
+      "name": "🐬海绵┃不卡",
+      "type": 3,
+      "api": "csp_HmysGuard",
+      "timeout": 10,
+      "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -8650,7 +8650,7 @@
       "name": "Ⓜ️嗷呜弹幕设置",
       "type": 3,
       "api": "csp_AAConfigAmns",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "key": "ConfigCenter",
@@ -8682,7 +8682,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Guazi",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "key": "天天",
@@ -8939,7 +8939,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Mtq",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "🍊柚子",
@@ -8950,7 +8950,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Xyz",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "📦师兄",
@@ -8961,7 +8961,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Dsx",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "🏃‍♂️‍➡️追剧",
@@ -8972,7 +8972,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Zjdr",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "🍌小黄人",
@@ -8983,7 +8983,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Xhr",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "📦咸鱼",
@@ -8994,7 +8994,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Xy",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "📦零零七",
@@ -9005,7 +9005,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Llq",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "🐶特狗",
@@ -9016,7 +9016,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV6Tg",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "🚀秋天",
@@ -9027,7 +9027,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/NewGrV2",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "⭐杜北",
@@ -9038,7 +9038,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Dubk",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "⭐荐片",
@@ -9049,7 +9049,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/JPian",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "⭐爱看",
@@ -9059,7 +9059,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "🏭厂长",
@@ -9070,7 +9070,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Czzy",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "⭐韩剧",
@@ -9080,7 +9080,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "🔥经典推荐",
@@ -9091,7 +9091,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Xxxg",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "🔥下饭推荐",
@@ -9101,7 +9101,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "🔥短剧推荐",
@@ -9113,7 +9113,7 @@
       "changeable": 0,
       "genre": "shortdrama",
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Hgdh",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "📖富强听书",
@@ -9122,8 +9122,8 @@
       "api": "csp_TStyAmns",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "changeable": 0,
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "📖文明听书",
@@ -9132,8 +9132,8 @@
       "api": "csp_TStzgAmns",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "changeable": 0,
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "name": "📖嗷嗚听书",
@@ -9142,19 +9142,29 @@
       "api": "csp_TSaowuAmns",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "changeable": 0,
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
-      "name": "🎸酷听音乐",
+      "name": "🎸酷我音乐",
       "key": "nanfeng_Kuwo",
       "type": 3,
       "api": "csp_KuwoAmns",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
+      "changeable": 0,
       "genre": "music",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png"
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+    },
+    {
+      "name": "🎸橙子音乐",
+      "key": "nanfeng_Czyy",
+      "type": 3,
+      "api": "csp_CzyyAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
     },
     {
       "key": "nanfeng_SeedHub",
