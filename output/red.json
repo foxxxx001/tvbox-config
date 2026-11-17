@@ -1,5 +1,5 @@
 {
-  "spider": "http://118.89.172.248:8025/jar/tan.php",
+  "spider": "http://118.89.172.248:8025/jar/tan2.php",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "lives": [
     {
@@ -26,22 +26,7 @@
       "name": "💥豆瓣排行💥",
       "type": 3,
       "api": "csp_Douban",
-      "ext": "https://gitee.com/jiandan1232/BabyOS/raw/master/test/douban.json",
-      "jar": "http://118.89.172.248:8025/jar/tan2.php"
-    },
-    {
-      "key": "配置中心",
-      "name": "⚙️┃配置┃中心⚙️",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "jar": "http://118.89.172.248:8025/jar/lubin.php"
+      "ext": "https://gitee.com/jiandan1232/BabyOS/raw/master/test/douban.json"
     },
     {
       "key": "JianSou",
@@ -117,19 +102,6 @@
       "api": "csp_Gz360",
       "searchable": 1,
       "filterable": 1
-    },
-    {
-      "key": "mino",
-      "name": "🍂┃MiNO┃秒播4K",
-      "type": 3,
-      "api": "csp_MiNO",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "rotate_device": 1,
-        "auto_fallback": 1
-      }
     },
     {
       "key": "AppDramaPingguo",
@@ -233,14 +205,43 @@
       "filterable": 1
     },
     {
-      "name": "🍂┃橘汁┃快速",
-      "key": "线路14",
+      "key": "橘子",
+      "name": "🍂┃橘子┃影视",
       "type": 3,
-      "jar": "https://zl.wpscdn.cn/2026/09/11/space_img/0f5c235d-ee40-42a0-a19a-b7f29986c51c.png;md5;7a2cb30dc4937d27e57288b5c381e19c",
-      "api": "csp_Woshinidie",
+      "api": "csp_AppDramaV5",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "filterable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "commonKey": "ed5fdsgucxumegqa",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.asjdhjhd.mgd.p3",
+        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
+        "version": "3.0.7.0",
+        "decrypt": "1"
+      }
+    },
+    {
+      "key": "AppV7_Dsx",
+      "name": "🍂┃师兄┃影视",
+      "type": 3,
+      "api": "csp_DaShiXiong",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "Gulu",
+      "name": "🍂┃咕噜┃影视",
+      "type": 3,
+      "api": "csp_Gulu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "feifan",
