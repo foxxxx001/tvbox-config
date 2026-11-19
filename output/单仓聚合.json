@@ -3085,26 +3085,6 @@
       "ext": "http:///Acf4n+FgSJlps29HFqyt+ECG19M+iLto9fxzwikME3YOnRFfaIWR3C9CZF+/o2jh4T6D4bOxYn8j775k1TLOsSHsG7tlKBqeENs8VhcKgZS5u7Gb8/LXYDutl7a21jsXLw=="
     },
     {
-      "key": "AppZy_wanqing",
-      "name": "🌇┆晚晴┆4K",
-      "type": 3,
-      "api": "csp_AppZy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http:///ARO+hB5vdFdHClVkrLOIgsdq6Ox6dBaesfwPqkaGkkI/kFSRmoG2vqoBgQJ4rQUfq9S/OqwEWkP8qRb4VM8DrYnl2UGeGnTvJjwdn+dbV8Nh"
-    },
-    {
-      "key": "AppZy_qiushui",
-      "name": "🪷┆秋水┆4K",
-      "type": 3,
-      "api": "csp_AppZy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http:///AXYmhdoG4mVUI1O/8DD7P+twDiSLZh1j9iNOR/xHURJp2Aw4rTsWEymW/RcJqLNohr1iR09cYEj6cCGDSNc95aBhNQfelqiC0gTqRSXniGO3"
-    },
-    {
       "key": "jz",
       "name": "🍵┆煮雪┆4K",
       "type": 3,
@@ -8659,7 +8639,7 @@
       "name": "Ⓜ️嗷呜弹幕设置",
       "type": 3,
       "api": "csp_AAConfigAmns",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "key": "ConfigCenter",
@@ -8691,7 +8671,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Guazi",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "key": "天天",
@@ -8948,7 +8928,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Mtq",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🍊柚子",
@@ -8959,7 +8939,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Xyz",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "📦师兄",
@@ -8970,7 +8950,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Dsx",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🏃‍♂️‍➡️追剧",
@@ -8981,7 +8961,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Zjdr",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🍌小黄人",
@@ -8992,7 +8972,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Xhr",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "📦咸鱼",
@@ -9003,7 +8983,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Xy",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "📦零零七",
@@ -9014,7 +8994,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV7Llq",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🐶特狗",
@@ -9025,7 +9005,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/AppV6Tg",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🚀秋天",
@@ -9036,7 +9016,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/NewGrV2",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "⭐杜北",
@@ -9047,7 +9027,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Dubk",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "⭐荐片",
@@ -9058,7 +9038,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/JPian",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "⭐爱看",
@@ -9068,7 +9048,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🏭厂长",
@@ -9079,7 +9059,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Czzy",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "⭐韩剧",
@@ -9089,7 +9069,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🔥经典推荐",
@@ -9100,7 +9080,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Xxxg",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🔥下饭推荐",
@@ -9110,7 +9090,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🔥短剧推荐",
@@ -9122,7 +9102,7 @@
       "changeable": 0,
       "genre": "shortdrama",
       "ext": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/Hgdh",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "📖富强听书",
@@ -9132,7 +9112,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "📖文明听书",
@@ -9142,7 +9122,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "📖嗷嗚听书",
@@ -9152,7 +9132,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🎸酷我音乐",
@@ -9163,7 +9143,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "music",
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "name": "🎸橙子音乐",
@@ -9173,7 +9153,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png"
+      "jar": "https://nos.netease.com/vcloud-statistic/nrtc/17278527-b3a6-4985-a235-839f8a3d7845.png"
     },
     {
       "key": "nanfeng_SeedHub",
