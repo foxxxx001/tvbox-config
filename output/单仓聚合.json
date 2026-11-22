@@ -13288,6 +13288,27 @@
       "ext": "{\"site\":[\"http://118.89.172.248:22776\"],\"name\":\"网盘CMS\"}"
     },
     {
+      "key": "hjzhencai",
+      "name": "💖┃花卷┃4K💖",
+      "type": 3,
+      "api": "csp_HjZhenCai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "{\"site\":\"https://www.hjzhencai.top,https://www.huanjuanwp.shop,https://www.aihuajuan.top\"}"
+    },
+    {
+      "key": "csp_Wogg",
+      "name": "💖┃玩偶┃4K💖",
+      "type": 3,
+      "api": "csp_WoggSite",
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 15,
+      "changeable": 0,
+      "ext": "ewogICJzaXRlX3VybHMiOiBbCiAgICAiaHR0cHM6Ly93d3cud29nZy5saXZlIiwKICAgICJodHRwczovL3dvZ2dwYW4uMzMzMjMyLnh5ei8iLAogICAgImh0dHBzOi8vd3d3LndvZ2cubmV0IgogIF0sCiAgInRva2VuIjogIiIsCiAgInVjQ29va2llIjogIiIsCiAgInF1YXJrQ29va2llIjogIiIKfQ=="
+    },
+    {
       "key": "MuouPanCms",
       "name": "💖┃木偶┃4K💖",
       "type": 3,
