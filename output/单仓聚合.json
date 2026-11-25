@@ -2476,7 +2476,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <修复扫码Bug>",
+      "name": "豆豆┃片单 <修复扫码BUG>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -5978,7 +5978,7 @@
       "changeable": 0
     },
     {
-      "name": "📁┃资源┃中心",
+      "name": "⚙️┃资源┃中心",
       "key": "MyAll",
       "type": 3,
       "api": "csp_MyAllAmns",
@@ -6530,6 +6530,24 @@
       "genre": "music"
     },
     {
+      "name": "🏪┃应用┃商店",
+      "key": "Store",
+      "type": 3,
+      "api": "csp_StoreAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "name": "🏪┃壁纸┃商店",
+      "key": "WPbzm",
+      "type": 3,
+      "api": "csp_WPbzmAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
       "name": "🔍┃飞鱼┃盘搜",
       "key": "PSfish",
       "type": 3,
@@ -6554,7 +6572,7 @@
       "api": "csp_PushAmns",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 1
+      "changeable": 0
     },
     {
       "key": "xinfunianian_豆瓣",
@@ -10979,16 +10997,6 @@
       "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/Rbys"
     },
     {
-      "name": "🔆杜北┃秒播",
-      "key": "线路16",
-      "type": 3,
-      "api": "csp_DubkAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/Dubk"
-    },
-    {
       "name": "🔆荐片┃快速",
       "key": "线路17",
       "type": 3,
@@ -15144,22 +15152,12 @@
       }
     },
     {
-      "name": "聚合1",
-      "type": 3,
-      "url": "https://9763.kstore.vip/Demo"
-    },
-    {
-      "name": "聚合0",
-      "type": 3,
-      "url": "https://9763.kstore.vip/Web"
-    },
-    {
-      "name": "云播",
+      "name": "嗷呜",
       "type": 0,
       "url": "https://free.maccms.xyz?url="
     },
     {
-      "name": "77",
+      "name": "真帅",
       "type": 0,
       "url": "https://jx.77flv.cc/?url="
     },
@@ -15282,6 +15280,32 @@
       }
     },
     {
+      "name": "77",
+      "type": 0,
+      "url": "https://jx.77flv.cc/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
       "name": "777",
       "type": 0,
       "url": "https://jx.777jiexi.com/player/?url="
@@ -15325,6 +15349,16 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
+    },
+    {
+      "name": "聚合1",
+      "type": 3,
+      "url": "https://szyyds.cn/tv/Demo"
+    },
+    {
+      "name": "聚合0",
+      "type": 3,
+      "url": "https://szyyds.cn/tv/Web"
     },
     {
       "name": "jx",
@@ -16308,19 +16342,6 @@
       ]
     },
     {
-      "name": "cdn.ryplay",
-      "hosts": [
-        "cdn.ryplay"
-      ],
-      "regex": [
-        "5.480000",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
-    },
-    {
       "name": "proxy",
       "hosts": [
         "hlsztemgsplive.miguvideo.com=hlsztemgsplive.188766.xyz",
@@ -16454,69 +16475,6 @@
         "最 新",
         "直 播",
         "更 新"
-      ]
-    },
-    {
-      "name": "农民嗅探",
-      "hosts": [
-        "toutiaovod.com"
-      ],
-      "regex": [
-        "video/tos/cn"
-      ]
-    },
-    {
-      "name": "夜市",
-      "hosts": [
-        "yeslivetv.com"
-      ],
-      "script": [
-        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
-      ]
-    },
-    {
-      "name": "毛驴",
-      "hosts": [
-        "www.maolvys.com"
-      ],
-      "script": [
-        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-      ]
-    },
-    {
-      "name": "czzy",
-      "hosts": [
-        "10086.cn"
-      ],
-      "regex": [
-        "/storageWeb/servlet/downloadServlet"
-      ]
-    },
-    {
-      "name": "bdys",
-      "hosts": [
-        "bytetos.com",
-        "byteimg.com",
-        "bytednsdoc.com",
-        "pstatp.com"
-      ],
-      "regex": [
-        "/tos-cn"
-      ],
-      "exclude": [
-        ".m3u8"
-      ]
-    },
-    {
-      "name": "bdys10",
-      "hosts": [
-        "bdys10.com"
-      ],
-      "regex": [
-        "/obj/"
-      ],
-      "exclude": [
-        ".m3u8"
       ]
     },
     {
@@ -16674,6 +16632,69 @@
       ]
     },
     {
+      "name": "农民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "夜市",
+      "hosts": [
+        "yeslivetv.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+      ]
+    },
+    {
+      "name": "毛驴",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    },
+    {
+      "name": "czzy",
+      "hosts": [
+        "10086.cn"
+      ],
+      "regex": [
+        "/storageWeb/servlet/downloadServlet"
+      ]
+    },
+    {
+      "name": "bdys",
+      "hosts": [
+        "bytetos.com",
+        "byteimg.com",
+        "bytednsdoc.com",
+        "pstatp.com"
+      ],
+      "regex": [
+        "/tos-cn"
+      ],
+      "exclude": [
+        ".m3u8"
+      ]
+    },
+    {
+      "name": "bdys10",
+      "hosts": [
+        "bdys10.com"
+      ],
+      "regex": [
+        "/obj/"
+      ],
+      "exclude": [
+        ".m3u8"
+      ]
+    },
+    {
       "name": "索尼",
       "hosts": [
         "suonizy"
@@ -16729,6 +16750,19 @@
       ],
       "regex": [
         "25.0666"
+      ]
+    },
+    {
+      "name": "cdn.ryplay",
+      "hosts": [
+        "cdn.ryplay"
+      ],
+      "regex": [
+        "5.480000",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
     {
